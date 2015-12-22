@@ -1,0 +1,217 @@
+<!-- The following line is essential for the "position: fixed" property to work correctly in IE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <title>AI Chat loadfile</title>
+    <meta charset="UTF-8">
+        <style>#chat-head { 
+background: #fff url('css/ui-lightness/images/servcliente.png') no-repeat -3px -5px;
+background-size: 80px 80px;
+width: 70px;
+height: 70px;
+-webkit-border-radius: 55px;
+-moz-border-radius: 55px;
+border-radius: 55px;
+background-color: #adafb5;
+-webkit-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+-moz-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+border: solid 1px #fff;
+position: fixed;
+right: -110px;
+top: 60px;
+text-decoration: none;
+-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out;
+}
+
+#chat-head i { 
+width: 17px;
+height: 24px;
+-webkit-border-radius: 4px/3px;
+-moz-border-radius: 4px/3px;
+border-radius: 4px/3px;
+background-color: #adafb5;
+background-image: -webkit-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -moz-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -o-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -ms-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: linear-gradient(to top, #ff1919, #ff5959);
+display: block;
+color: #fff;
+font-style: normal;
+font-family: 'Helvetica';
+font-weight: bold;
+font-size: 16px;
+text-align: center;
+line-height: 28px;
+box-shadow: 0px 1px 3px #000;
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+border: 1px solid rgba(255, 0, 0, .5);
+margin: -5px 0 0 -5px;
+text-shadow: 0 2px 0 #c51414;
+
+}
+
+#chat-head.animate { right: -10px; }
+#progress_bar {
+    margin: 10px 0;
+    padding: 3px;
+    border: 1px solid #000;
+    font-size: 14px;
+    clear: both;
+    opacity: 0;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+  }
+  #progress_bar.loading {
+    opacity: 1.0;
+  }
+  #progress_bar .percent {
+    background-color: #99ccff;
+    height: auto;
+    width: 0;
+  }
+  
+  #loader {
+    position: absolute;
+      left:40%;
+  top:10%;
+  width: 100px;
+}        
+        
+        </style>
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+    <link type="text/css" href="jquery.ui.chatbox.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.ui.chatbox.js"></script>
+    <script type="text/javascript" src="AIchatloadfile.js"></script>
+    <script type="text/javascript" src="sinacento.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    
+  </head>
+  <body>
+    <p>Por favor subir un archivo csv, con las cabeceras (Preguntas, Respuestas).</p>
+    <div id="loader">
+    <p align="center">Subir Preguntas<input type="file" id="files" name="files[]" multiple/>
+        </p>
+     <p align="center"><button onclick="abortRead();">Begin</button></p><div id="progress_bar"><div class="percent">0%</div></div></div>  
+    <div id="chat_div">
+    </div>
+    
+    <div id="log">
+    </div>
+ <!-- Chat Head -->
+<a id="chat-head" href="#">
+  <i>1</i>
+</a>
+  </body>
+   <script type="text/javascript">
+ var cortador=0;
+     var reader;
+var arbol = 0;
+var elcsv = "";
+var elfsa = 0;
+var corte = 0;
+var virus ="";
+  var progress = document.querySelector('.percent');
+
+  function abortRead() {
+     
+    abrir(arbol);
+  }
+
+  function errorHandler(evt) {
+    switch(evt.target.error.code) {
+      case evt.target.error.NOT_FOUND_ERR:
+        alert('File Not Found!');
+        break;
+      case evt.target.error.NOT_READABLE_ERR:
+        alert('File is not readable');
+        break;
+      case evt.target.error.ABORT_ERR:
+        break; // noop
+      default:
+        alert('An error occurred reading this file.');
+    };
+  }
+
+  function updateProgress(evt) {
+    // evt is an ProgressEvent.
+    if (evt.lengthComputable) {
+      var percentLoaded = Math.round((evt.loaded / evt.total) * 100);
+      // Increase the progress bar length.
+      if (percentLoaded < 100) {
+        progress.style.width = percentLoaded + '%';
+        progress.textContent = percentLoaded + '%';
+      }
+    }
+  }
+
+  function handleFileSelect(evt) {
+    // Reset progress indicator on new file selection.
+    progress.style.width = '0%';
+    progress.textContent = '0%';
+
+    reader = new FileReader();
+    reader.onerror = errorHandler;
+    reader.onprogress = updateProgress;
+    reader.onabort = function(e) {
+      alert('File read cancelled');
+    };
+    reader.onloadstart = function(e) {
+      document.getElementById('progress_bar').className = 'loading';
+    };
+    reader.onload = function(e) {
+      // Ensure that the progress bar displays 100% at the end.
+      progress.style.width = '100%';
+      progress.textContent = '100%';
+      setTimeout("document.getElementById('progress_bar').className='';", 2000);
+      //alert(d3.csv.parse(reader.result));
+     // alert(reader.result);
+     if(arbol===0){arbol=d3.csv.parse(reader.result);}
+      
+    }
+
+    // Read in the image file as a binary string.
+    reader.readAsText(evt.target.files[0]);
+    //reader.readAsBinaryString(evt.target.files[0]);
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false); 
+        function getUrlParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+}       
+        
+ function abrir(losdatos){       
+     var check = null;   
+     
+     $(document).ready(function () {
+  $('#chat-head').addClass('animate');
+  $("#chat-head").click(function() {
+      
+      if(check) { $("#chat_div").chatbox("option", "hidden", false);
+                  
+              }
+              else { init(losdatos);check++;}
+   
+  });
+});}
+    </script>  
+</html>
+
+    </body>
+</html>
+
