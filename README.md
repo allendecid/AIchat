@@ -12,7 +12,7 @@ A decision on the success of the classification can be set through the use of a 
 
 A maximum length for the messages can also be set, allowing the bot to divide long strings for multiple classifications, and responses.
 
-You can test a running version for english (simple conversation) and spanish. You can also upload your own csv and test the classification of certain sentences.
+You can test a running version for english (simple conversation) and spanish (flower shop support). You can also upload your own csv and test the classification of certain sentences.
 
 [English Demo](http://www.onl.cl/AIchat/AIchatEN.html "english AIchat")
 
