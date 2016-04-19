@@ -1,0 +1,64 @@
+<!-- The following line is essential for the "position: fixed" property to work correctly in IE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <title>Chatbot</title>
+    <meta charset="UTF-8">
+        <style>@import url(http://fonts.googleapis.com/css?family=Lato);
+</style>
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+    <link type="text/css" href="EN/jquery.ui.chatboxmod.css" rel="stylesheet" />
+    <link type="text/css" href="head.css" rel="stylesheet" />
+    <script type="text/javascript" src="EN/jquery.ui.chatboxmod.js"></script>
+    <script type="text/javascript" src="EN/AIchatload.js"></script>
+    <script type="text/javascript" src="highlight.js"></script>
+    <script type="text/javascript" src="sinacento.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        
+        
+      var reg = / it | the | a | or |and | and |\, |\. | to /g; // list of words to omit, if you use weights do not set score for that word
+     var csv = "faqen.csv";   // file with questions and answers
+     var decider=0.49; // jacobian estimator for sucessful clasification
+     var lengthmax=8; // max sentence length before being divided by two sentences
+     var memory=1; // 1 takes the last message sent into account for clasification. 0 does not.
+     var coef=0.7; // coefficient that allows typing errors and associates words with similar stem
+     var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
+     var check = null;   
+     $(document).ready(function () {
+  $('#chat-head').addClass('animate');
+  
+  $("#chat-head").click(function() {
+      
+      if(check) { $("#chat_div").chatbox("option", "hidden", false);
+                  
+              }
+              else { init(csv,decider,reg,lengthmax,memory,coef,weights);check++;}
+   
+  });
+});
+
+
+    </script>
+  </head>
+  <body>
+    
+       
+        <div id="chat_div">
+    </div>
+    
+    <div id="log">
+    </div>
+ <!-- Chat Head -->
+<a id="chat-head" href="#">
+  <i>1</i>
+</a>
+  </body>
+     
+</html>
+
+    </body>
+</html>
+

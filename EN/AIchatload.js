@@ -1,6 +1,7 @@
 
 function init(csv,decider,reg,lengthmax,memory,coef, weights){
 
+d3.csv(csv, function(error, data) {
 var anterior=0, temp=0, inda=0;
     $(document).ready(function(){
           var box = null;
@@ -45,7 +46,7 @@ var pregarr=[]; // Pregunta
 var estimad=[]; // estimador jacobiano
 var matcher=[]; // matcher de words en data
 
-csv.forEach(function(d) {
+data.forEach(function(d) {
                var score=1;
                var igual=[];
                var untouched=d.Question;
@@ -247,5 +248,5 @@ function escapeRegExp(string) {
     return string.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
 }
    //   });
-
+});
 }

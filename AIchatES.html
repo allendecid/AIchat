@@ -1,0 +1,65 @@
+<!-- The following line is essential for the "position: fixed" property to work correctly in IE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <title>Chatbot</title>
+    <meta charset="UTF-8">
+        <style>@import url(http://fonts.googleapis.com/css?family=Lato);
+</style>
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+    <link type="text/css" href="ES/jquery.ui.chatboxmod.css" rel="stylesheet" />
+    <link type="text/css" href="head.css" rel="stylesheet" />
+    <script type="text/javascript" src="ES/jquery.ui.chatboxmod.js"></script>
+    <script type="text/javascript" src="ES/AIchatload.js"></script>
+    <script type="text/javascript" src="highlight.js"></script>
+    <script type="text/javascript" src="sinacento.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        
+        
+     var reg = / el | los | me | la | las | un | unos | una | unas | y | unas /g; // lista de palabras a omitir
+     var csv = "faqes.csv";   // archivo con preguntas y respuestas
+     //queria saber cuanto cuestan los lilium y si hacen despachos a domicilio que necesito un pedido grande de flores
+     var decider=0.49; // estimador jacobiano del exito de clasificación
+     var largomax=6; // largo de la pregunta maximo, para valores mas altos la pregunta se divide en dos
+     var memoria=1; // toma en cuenta el mensaje anterior al hacer la clasificación
+     var coef=0.7; // coeficiente que permite errores de tipeo y asocia palabras con la misma raiz 
+     var weights = 0;// 1 para habilitar los pesos desde el csv, 0 para deshabilitar pesos
+     var check = null;
+     
+     $(document).ready(function () {
+  $('#chat-head').addClass('animate');
+  
+  $("#chat-head").click(function() {
+      
+      if(check) { $("#chat_div").chatbox("option", "hidden", false);
+                  
+              }
+              else { init(csv,decider,reg,largomax,memoria,coef, weights);check++;}
+   
+  });
+});
+
+
+    </script>
+  </head>
+  <body>
+    
+       
+        <div id="chat_div">
+    </div>
+    
+    <div id="log">
+    </div>
+ <!-- Chat Head -->
+<a id="chat-head" href="#">
+  <i>1</i>
+</a>
+  </body>
+     
+</html>
+
+    </body>
+</html>

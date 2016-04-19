@@ -1,0 +1,42 @@
+#hor-minimalist-b
+{       
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 10px;
+	background: #fff;
+	margin-left:auto;
+        margin-right:auto;
+	width: auto;
+	border-collapse: collapse;
+	text-align: left;
+        border-radius:5px;
+        
+  background:RGBA(255,255,255,1);
+    
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+}
+#hor-minimalist-b th
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #039;
+	padding: 20px 16px 16px;
+       // border-radius:5px;
+       border-bottom: 2px solid #6678b1;
+     border-right:20px solid #ffffff;
+       border-left:20px solid #ffffff;
+
+}
+#hor-minimalist-b td
+{
+	border-bottom: 1px solid #ccc;
+        border-right:20px solid #ffffff;
+       border-left:20px solid #ffffff;
+	color: #669;
+	padding: 12px 16px;
+}
+#hor-minimalist-b tbody tr:hover td
+{
+	color: #009;
+        cursor: pointer;
+}

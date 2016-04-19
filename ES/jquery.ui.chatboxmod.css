@@ -1,0 +1,220 @@
+/* style sheets */
+.ui-chatbox {
+    position: fixed;
+    height: 100%;
+    bottom:0;
+    padding: 0px;
+    background:  #ffffff;
+    //#78a100
+   border:1px solid #222;
+ // background:RGBA(255,255,255,1);
+    
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+}
+
+.ui-chatbox-titlebar {
+    padding: 7px;
+    padding-top: 10px;
+  //  padding-left: 43px;
+  //  margin-top: 2px;
+ // border:1px solid #222;
+    height: 25px;
+    cursor: pointer;
+    background: url(css/ui-lightness/images/vchat40.png) no-repeat left center;
+   // background-color: #78a100;
+   background-color: #696969;
+  
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  text-decoration:none;
+  text-align: center;
+color:#fff;
+font-family:Lato;
+font-weight:300;
+-webkit-font-smoothing:antialiased;
+text-transform:uppercase;
+font-size:14px;
+}
+
+.ui-chatbox-content {
+  //  border:1px solid #222;
+   height: 100%;
+    margin: 0px;
+    border: 0px;
+   background: #fff;
+
+}
+
+.ui-chatbox-log {
+    border-bottom:1px solid #222;
+    padding: 7px;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+.ui-chatbox-input {
+    // border:1px solid #222;
+    padding: 7px;
+    border-top: 0.5px solid grey;
+    overflow: hidden;
+  background:  #ffffff;
+}
+
+.ui-chatbox-input-box {
+    margin: 5px;
+    border: 2px solid lightcoral;/* #6699FF */
+    padding: 2px;
+    height: 50px;
+    background:  #ffffff;
+}
+
+.ui-chatbox-icon {
+    float: right;
+}
+
+.ui-chatbox-input-focus {
+    border-color: #696969;
+}
+
+.ui-chatbox-msg {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+.ui-chatbox-rest {
+    margin-top: 2px;
+     background:  #ffffff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width:100%;
+    padding:7px;
+}
+.ui-chatbox-rest ul{
+list-style:none;
+margin:0;
+margin-right:0;
+margin:0;
+padding:0;
+padding-right:0;
+text-align:left;
+font-family: Helvetica;
+}
+.ui-chatbox-rest  > ul{
+margin-bottom:0px;
+//border:1px solid #222;
+}
+.ui-chatbox-rest > ul > li{
+position:relative;
+//white-space: pre-line;
+}
+.ui-chatbox-rest > ul > li > a{
+display:block;
+outline:0;
+height:20px;
+padding:5px;
+text-decoration:none;
+color:#fff;
+background:#696969;
+border-bottom:1px solid #222;
+font-family:Lato;
+font-weight:300;
+-webkit-font-smoothing:antialiased;
+text-transform:uppercase;
+font-size:14px;
+
+}
+.ui-chatbox-rest > ul > li > a > i{
+display:block;
+width:45px;
+height:30px;
+float:left;
+
+}
+.ui-chatbox-rest > ul > li:nth-child(1) > a > i{
+background:url(img/icon_friend.png)no-repeat top left;
+/*background-size*/
+-webkit-background-size:40%;
+ -moz-background-size:40%;
+ -o-background-size:40%;
+ background-size:40%;
+background-position:5px 3px;
+
+}
+.ui-chatbox-rest > ul > li:nth-child(2) > a > i{
+background:url(img/icon_video.png)no-repeat top left;
+/*background-size*/
+-webkit-background-size:40%;
+ -moz-background-size:40%;
+ -o-background-size:40%;
+ background-size:40%;
+background-position:5px 3px;
+}
+.ui-chatbox-rest > ul > li:nth-child(3) > a > i{
+background:url(img/icon_gallery.png)no-repeat top left;
+/*background-size*/
+-webkit-background-size:40%;
+ -moz-background-size:40%;
+ -o-background-size:40%;
+ background-size:40%;
+background-position:5px 3px;
+}
+.ui-chatbox-rest > ul > li:nth-child(4) > a > i{
+background:url(img/icon_podcast.png)no-repeat top left;
+/*background-size*/
+-webkit-background-size:40%;
+ -moz-background-size:40%;
+ -o-background-size:40%;
+ background-size:40%;
+background-position:5px 3px;
+}
+.ui-chatbox-rest > ul > li:nth-child(5) > a > i{
+background:url(img/icon_bolt.png)no-repeat top left;
+/*background-size*/
+-webkit-background-size:20%;
+ -moz-background-size:20%;
+ -o-background-size:20%;
+ background-size:20%;
+background-position:10px 3px;
+}
+.ui-chatbox-rest > ul > li > ul{
+   // margin-top: 10px;
+counter-reset:items;
+height:auto;
+//overflow:hidden;
+background:#fff;
+color:#696969;
+//width:100%;
+}
+.ui-chatbox-rest > ul > li > ul > li{
+width: inherit;
+//counter-increment:items;
+   white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+padding:1em 1.3em;
+border-bottom:1px solid #DDD;
+font-size:12px;
+cursor:pointer;
+}
+.ui-chatbox-rest > ul > li > ul > li:hover{
+
+background:#f4F4F4;
+}
+
+ul.activet{
+background:#c0273c;
+}
+ul.closedt{
+height:0;
+}

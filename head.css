@@ -1,0 +1,51 @@
+#chat-head { 
+background: #fff url('css/ui-lightness/images/servcliente.png') no-repeat -3px -5px;
+background-size: 80px 80px;
+width: 70px;
+height: 70px;
+-webkit-border-radius: 55px;
+-moz-border-radius: 55px;
+border-radius: 55px;
+background-color: #adafb5;
+-webkit-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+-moz-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+border: solid 1px #fff;
+position: fixed;
+right: -110px;
+top: 60px;
+text-decoration: none;
+-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out;
+}
+
+#chat-head i { 
+width: 17px;
+height: 24px;
+-webkit-border-radius: 4px/3px;
+-moz-border-radius: 4px/3px;
+border-radius: 4px/3px;
+background-color: #adafb5;
+background-image: -webkit-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -moz-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -o-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -ms-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: linear-gradient(to top, #ff1919, #ff5959);
+display: block;
+color: #fff;
+font-style: normal;
+font-family: 'Helvetica';
+font-weight: bold;
+font-size: 16px;
+text-align: center;
+line-height: 28px;
+box-shadow: 0px 1px 3px #000;
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+border: 1px solid rgba(255, 0, 0, .5);
+margin: -5px 0 0 -5px;
+text-shadow: 0 2px 0 #c51414;
+
+}
+
+#chat-head.animate { right: -10px; }
+

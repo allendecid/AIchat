@@ -2,58 +2,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
   <head>
-    <title>AI Chat loadfile</title>
+    <title>Chatbot</title>
     <meta charset="UTF-8">
-        <style>#chat-head { 
-background: #fff url('css/ui-lightness/images/servcliente.png') no-repeat -3px -5px;
-background-size: 80px 80px;
-width: 70px;
-height: 70px;
--webkit-border-radius: 55px;
--moz-border-radius: 55px;
-border-radius: 55px;
-background-color: #adafb5;
--webkit-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
--moz-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
-border: solid 1px #fff;
-position: fixed;
-right: -110px;
-top: 60px;
-text-decoration: none;
--webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out;
-}
-
-#chat-head i { 
-width: 17px;
-height: 24px;
--webkit-border-radius: 4px/3px;
--moz-border-radius: 4px/3px;
-border-radius: 4px/3px;
-background-color: #adafb5;
-background-image: -webkit-linear-gradient(bottom, #ff1919, #ff5959);
-background-image: -moz-linear-gradient(bottom, #ff1919, #ff5959);
-background-image: -o-linear-gradient(bottom, #ff1919, #ff5959);
-background-image: -ms-linear-gradient(bottom, #ff1919, #ff5959);
-background-image: linear-gradient(to top, #ff1919, #ff5959);
-display: block;
-color: #fff;
-font-style: normal;
-font-family: 'Helvetica';
-font-weight: bold;
-font-size: 16px;
-text-align: center;
-line-height: 28px;
-box-shadow: 0px 1px 3px #000;
--moz-box-shadow: 0px 1px 3px #000;
--webkit-box-shadow: 0px 1px 3px #000;
-border: 1px solid rgba(255, 0, 0, .5);
-margin: -5px 0 0 -5px;
-text-shadow: 0 2px 0 #c51414;
-
-}
-
-#chat-head.animate { right: -10px; }
+        
+        <style>@import url(http://fonts.googleapis.com/css?family=Lato);
+           
 #progress_bar {
     margin: 10px 0;
     padding: 3px;
@@ -78,26 +31,41 @@ text-shadow: 0 2px 0 #c51414;
     position: absolute;
       left:40%;
   top:10%;
-  width: 100px;
+
 }        
         
-        </style>
+       
+</style>
     <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
-    <link type="text/css" href="jquery.ui.chatbox.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery.ui.chatbox.js"></script>
+    <link type="text/css" href="EN/jquery.ui.chatboxmod.css" rel="stylesheet" />
+    <link type="text/css" href="head.css" rel="stylesheet" />
+    <script type="text/javascript" src="EN/jquery.ui.chatboxmod.js"></script>
     <script type="text/javascript" src="AIchatloadfile.js"></script>
     <script type="text/javascript" src="sinacento.js"></script>
     <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  
     
   </head>
   <body>
-    <p>Por favor subir un archivo csv, con las cabeceras (Preguntas, Respuestas).</p>
+    <p>Upload a csv with headers Question, Answer, Weights(optional)</p>
     <div id="loader">
-    <p align="center">Subir Preguntas<input type="file" id="files" name="files[]" multiple/>
+    <p align="center">Upload file<br><input type="file" id="files" name="files[]" multiple/>
         </p>
-     <p align="center"><button onclick="abortRead();">Begin</button></p><div id="progress_bar"><div class="percent">0%</div></div></div>  
+       <p align="center"> 
+           Success estimator (0-1)<br>
+  <input type="number" id="totalest" step="0.01" value="0.49" style="width: 50px;"></input>
+  <br>Error coef (0-1)<br>
+  <input type="number" id="totalcoef" step="0.05" value="0.7" style="width: 50px;"></input><br>
+  <input type="checkbox" id="weights" value="0" />Weights<br>
+  <input type="checkbox" id="memory" value="0" />Memory
+ </p>
+        <p align="center"><button onclick="abortRead();">Begin</button></p><div id="progress_bar"><div class="percent">0%</div></div>
+        
+        
+        
+    </div>  
     <div id="chat_div">
     </div>
     
@@ -109,13 +77,10 @@ text-shadow: 0 2px 0 #c51414;
 </a>
   </body>
    <script type="text/javascript">
- var cortador=0;
+
      var reader;
 var arbol = 0;
-var elcsv = "";
-var elfsa = 0;
-var corte = 0;
-var virus ="";
+
   var progress = document.querySelector('.percent');
 
   function abortRead() {
@@ -195,8 +160,20 @@ var virus ="";
     }
 }       
         
- function abrir(losdatos){       
-     var check = null;   
+ function abrir(csv){       
+     var check = null;
+     var reg = /\, |\. /g; // list of words to omit, if you use weights do not set score for that word
+     var decider=$('#totalest').attr('value') // jacobian estimator for sucessful clasification
+     var lengthmax=20; // max sentence length before being divided by two sentences
+     var weights=0;
+     var memory=0; // 1 takes the last message sent into account for clasification. 0 does not.
+     var coef=$('#totalcoef').attr('value') // coefficient that allows typing errors and associates words with similar stem
+     if($("#weights").is(':checked'))  weights=1;  // checked
+     if($("#memory").is(':checked'))  memory=1;  // checked
+
+     
+     
+     
      
      $(document).ready(function () {
   $('#chat-head').addClass('animate');
@@ -205,7 +182,7 @@ var virus ="";
       if(check) { $("#chat_div").chatbox("option", "hidden", false);
                   
               }
-              else { init(losdatos);check++;}
+              else { init(csv,decider,reg,lengthmax,memory,coef,weights);check++;}
    
   });
 });}
