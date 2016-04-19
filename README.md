@@ -14,9 +14,9 @@ A maximum length for the messages can also be set, allowing the bot to divide lo
 
 You can test a running version for [english](http://www.onl.cl/AIchat/AIchatEN.html "english AIchat") (simple conversation) and [spanish](http://www.onl.cl/AIchat/AIchatES.html "spanish AIchat") (flower shop support). You can also [upload your own csv](http://www.onl.cl/AIchat/loadfile.html "upload AIchat") and test the classification of certain sentences.
 
-[English Demo](http://www.onl.cl/AIchat/AIchatEN.html "english AIchat")
-[Spanish Demo](http://www.onl.cl/AIchat/AIchatES.html "spanish AIchat")
-[Upload Demo](http://www.onl.cl/AIchat/loadfile.html "upload AIchat")
+Check the [English Demo](http://www.onl.cl/AIchat/AIchatEN.html "english AIchat").
+Check the [Spanish Demo](http://www.onl.cl/AIchat/AIchatES.html "spanish AIchat").
+Check the [Upload Demo](http://www.onl.cl/AIchat/loadfile.html "upload AIchat").
 
 AIchat is particularly useful in cases of situational conversations, such as giving information on products and how to buy them and deliver them, but it can also be used as a general purpose chatbot.
 
