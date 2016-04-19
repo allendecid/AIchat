@@ -38,7 +38,7 @@ var reg = / it | the | a | or |and | and |\, |\. | to  /g; // list of words to o
      var coef=0.7; // coefficient that allows typing errors and associates words with similar stems
      var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
 ```
-The decider variable can be a number from 0 to 1. Likewise for the coef variable that assigns the value of the association of words through the use of the levenshtein distance [levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance "levenshtein distance"). 
+The decider variable can be a number from 0 to 1. Likewise for the coef variable that assigns the value of the association of words through the use of the [levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance "levenshtein distance"). 
 
 You can customize the variable number values to tune the classification and the responses of your bot.
 
