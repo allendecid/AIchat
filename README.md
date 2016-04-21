@@ -55,7 +55,7 @@ The partial weight is then defined as as the frequency of that word plus the bas
 
 Finally the weights are normalized as the individual weights divided by the total weights of that sentence `weight=partialweight/sum(partialweights)`, alowing their sum to be 1 for each sentence.
 
-You can also set a constant lower bound for all words by setting a third argument on the script.
+You can also set a constant lower bound for all words by setting a second argument on the script.
 ```
 python addweights.py <csv-file> lowbound(optional)
 ex: python addweights.py faqen.csv 0.1
