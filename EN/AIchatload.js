@@ -150,7 +150,7 @@ data.forEach(function(d) {
             if(!temp){anterior=msg;}
          }   
          else{if(anterior&&!temp){temp=anterior;anterior=msg;respuesta(temp,estimad);}
-             else{$("#chat_div").chatbox("option", "boxManager").addMsg("Service Agent","I don't have enough information to answer you" ); if(!temp){anterior=msg;}
+             else{$("#chat_div").chatbox("option", "boxManager").addMsg("Service Agent","I don't have enough information to answer you" ); $("#respuestarel").html('<li><font color="black">'+pregarr[ind]+"</font>"+"<br>"+resparr[ind]+"</li>"+'<li><font color="black">'+pregarr[sec]+"</font>"+"<br>"+resparr[sec]+"</li>"+'<li><font color="black">'+pregarr[third]+"</font>"+"<br>"+resparr[third]+"</li>"); if(!temp){anterior=msg;}
           
       }
          
