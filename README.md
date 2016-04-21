@@ -30,11 +30,11 @@ init(csv,decider,reg,lengthmax,memory,coef,weights)
 ```
 
 ```
-var reg = / it | the | a | or |and | and |\, |\. | to  /g; // list of words to omit, if you use weights do not set a score for that word
+var reg = /\, |\. | and  /g; // list of words to omit, if you use weights do not set a score for that word
      var csv = "faqen.csv";   // file with questions and answers
-     var decider=0.49; //  decides if the classification was successful or not (Jacobian)
-     var lengthmax=6; // max sentence length before being divided by two sentences
-     var memory=1; // 1 takes the last message sent into account for classification. 0 does not.
+     var decider=0.6; //  decides if the classification was successful or not (Jacobian)
+     var lengthmax=12; // max sentence length before being divided
+     var memory=0; // 1 takes the last message sent into account for classification. 0 does not.
      var coef=0.7; // coefficient that allows typing errors and associates words with similar stems
      var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
 ```
