@@ -42,3 +42,21 @@ The decider variable can be a number from 0 to 1. Likewise for the coef variable
 
 You can customize the variable number values to tune the classification and the responses of your bot.
 
+## Calculating weights for your document
+
+A python script is included that will calculate a weight for each word on a question based on its frequency in all the questions and on its discriminating power. After designing a csv faq with the headers Question and Answer and running the script, it will create a new csv document called Weighted.csv with an additional column named Weights. 
+To run the script do as follow in the command line:
+```
+python addweights.py <csv-file>
+```
+The weight will be calculated based on the frequency of that word on the document and a lower bound or base. 
+The lower bound is composed of a base number `base=1/length(question)`. 
+The partial weight is then defined as as the frequecy of that word plus the base `partialweight=base+1.0/freq[word]`. 
+
+Finally the weights are normalized as the individual weights divided by the total weights of that sentence `weight=partialweight/sum(partialweights)`, alowing their sum to be 1 for each sentence.
+
+You can also set a constant lower bound for all words by setting a third argument on the script.
+```
+python addweights.py <csv-file> lowbound(optional)
+ex: python addweights.py faqen.csv 0.1
+```
