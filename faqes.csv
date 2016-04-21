@@ -26,6 +26,9 @@ Buenas noches,Muy buenas noches,0.357142857143 0.642857142857
 Hasta Luego,Hasta Luego,0.5 0.5
 Adios,Hasta Luego,1.0
 Chao,Hasta Luego,1.0
+Gracias,De nada,1.0
+gracias por la,De nada,0.4 0.3 0.3
+nos vemos,Hasta luego,0.5 0.5
 buenas,"Hola, ¿como esta hoy?",1.0
 hola,"Hola, ¿como esta hoy?",1.0
 Muy bien gracias,Me alegro.¿Le puedo ayudar en algo?,0.307692307692 0.307692307692 0.384615384615
