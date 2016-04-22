@@ -51,7 +51,7 @@ python addweights.py <csv-file>
 ```
 The weight will be calculated based on the frequency of that word on the document and a lower bound or base. 
 The lower bound is composed of a base number `base=1/length(question)`. 
-The partial weight is then defined as as the frequency of that word plus the base `partialweight=base+1.0/freq[word]`. 
+The partial weight is then defined as as the inverse frequency of that word plus the base `partialweight=base+1.0/freq[word]`. 
 
 Finally the weights are normalized as the individual weights divided by the total weights of that sentence `weight=partialweight/sum(partialweights)`, alowing their sum to be 1 for each sentence.
 
