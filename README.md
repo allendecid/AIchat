@@ -20,7 +20,7 @@ You can test a running version for english (simple conversation) and spanish (fl
 
 [Upload csv Demo](http://www.onl.cl/AIchat/loadfile.html "upload AIchat")
 
-The success of the chatbot and the classification is highly dependent on the design of the csv with the questions/mesages and the related responses. Check the example faqs faqen.csv and faqes.csv as points of reference on how to create a good data source for the chatbot.
+The success of the chatbot and the classification is highly dependent on the design of the csv with the questions/mesages and the related responses. Check the example faqs FAQENweighted.csv and FAQESnw.csv as points of reference on how to create a good data source for the chatbot.
 
 AIchat is particularly useful in cases of situational conversations, such as giving information on products and how to buy them and deliver them, but it can also be used as a general purpose chatbot.
 
