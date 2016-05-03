@@ -20,13 +20,13 @@
         
         
      var reg = / el | los | me | la | las | un | unos | una | unas | y | unas /g; // lista de palabras a omitir
-     var csv = "faqes.csv";   // archivo con preguntas y respuestas, si vas a calcular pesos evita los acentos en las preguntas. 
+     var csv = "FAQESnw.csv";   // archivo con preguntas y respuestas, si vas a calcular pesos evita los acentos en las preguntas. 
      //queria saber cuanto cuestan los lilium y si hacen despachos a domicilio que necesito un pedido grande de flores
-     var decider=0.6; // estimador jacobiano del exito de clasificación
-     var largomax=20; // largo de la pregunta maximo, para valores mas altos la pregunta se divide en dos
+     var decider=0.34; // estimador jacobiano del exito de clasificación
+     var largomax=8; // largo de la pregunta maximo, para valores mas altos la pregunta se divide en dos
      var memoria=0; // toma en cuenta el mensaje anterior al hacer la clasificación
      var coef=0.7; // coeficiente que permite errores de tipeo y asocia palabras con la misma raiz 
-     var weights = 1;// 1 para habilitar los pesos desde el csv, 0 para deshabilitar pesos
+     var weights = 0;// 1 para habilitar los pesos desde el csv, 0 para deshabilitar pesos
      var check = null;
      
      $(document).ready(function () {
