@@ -21,8 +21,8 @@
         
       var reg = / it | the | a | or |and | and |\, |\. | to /g; // list of words to omit, if you use weights do not set score for that word
      var csv = "faqen.csv";   // file with questions and answers
-     var decider=0.6; // jacobian estimator for sucessful clasification
-     var lengthmax=20; // max sentence length before being divided by two sentences
+     var decider=0.45; // jacobian estimator for sucessful clasification
+     var lengthmax=8; // max sentence length before being divided by two sentences
      var memory=0; // 1 takes the last message sent into account for clasification. 0 does not.
      var coef=0.7; // coefficient that allows typing errors and associates words with similar stem
      var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
