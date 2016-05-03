@@ -122,14 +122,14 @@ data.forEach(function(d) {
            contexto.forEach(function(d,n) {
                estimad[n]=estimad[n]+d;
                });
-          var ind = estimad.indexOf(Math.max.apply(Math, estimad));
+        var ind = estimad.indexOf(d3.max(estimad));
    maxdec=estimad[ind]; // before splicing values
     var get2=secondMax(estimad);
     var sec= get2[0];
     var third= get2[1];
    
          }else{
-            var ind = arreglo.indexOf(Math.max.apply(Math, arreglo));
+             var ind = arreglo.indexOf(d3.max(arreglo));
     var get2=secondMax(arreglo);
     var sec= get2[0];
     var third= get2[1];
@@ -138,12 +138,13 @@ data.forEach(function(d) {
          
 
 
-       if(largo>largomax){decider=decider-(0.067*(largo-largomax));
-           for (i = matcher[ind].length-1; i >-1; i--) {
+       if(largo>largomax){
+            for (i = matcher[ind].length-1; i >-1; i--) {
        res.splice(matcher[ind][i], 1);}
    var newmsg = res.join(" ");
-     if(estimad[ind]>decider) mostrarmsg();
-   if(matcher[ind].length>1)respuesta(newmsg,estimad);
+   maxdec=(largo-res.length)/(pregarr[ind].split(" ").length);
+     if(maxdec>decider)mostrarmsg();
+   if(matcher[ind].length>1)respuesta(newmsg,estimad); 
 
 }else{mostrarmsg();}
     
@@ -155,7 +156,7 @@ data.forEach(function(d) {
         $("#respuestarel").html('<li><font color="black">'+pregarr[ind]+"</font>"+"<br>"+resparr[ind]+"</li>"+'<li><font color="black">'+pregarr[sec]+"</font>"+"<br>"+resparr[sec]+"</li>"+'<li><font color="black">'+pregarr[third]+"</font>"+"<br>"+resparr[third]+"</li>"); 
             if(!temp){anterior=msg;}
          }   
-         else{if(anterior&&!temp){temp=anterior;anterior=msg;respuesta(temp,estimad);}
+        else{if(anterior&&!temp&&memoria===1){temp=anterior;anterior=msg;respuesta(temp,estimad);}
              else{$("#chat_div").chatbox("option", "boxManager").addMsg("Agente IA","No tengo la información necesaria para responderle" ); $("#respuestarel").html('<li><font color="black">'+pregarr[ind]+"</font>"+"<br>"+resparr[ind]+"</li>"+'<li><font color="black">'+pregarr[sec]+"</font>"+"<br>"+resparr[sec]+"</li>"+'<li><font color="black">'+pregarr[third]+"</font>"+"<br>"+resparr[third]+"</li>"); if(!temp){anterior=msg;}
           
       }
