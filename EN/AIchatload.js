@@ -82,7 +82,7 @@ data.forEach(function(d) {
                 var wscore=wpoints[position]*wpoints.length;
                score=score*(1+wscore)/(largot);igual.push(i);
             }
-            else if(res[i].length>5&&similar(res[i],match)>=coef){var wscore=wpoints[similarpos(res[i],match)]*wpoints.length;
+            else if(res[i].length>4&&similar(res[i],match)>=coef){var wscore=wpoints[similarpos(res[i],match)]*wpoints.length;
                 score=score*(1+wscore)/(largot);igual.push(i);
             }                  
              else{score=score*1/(largot);}
@@ -94,7 +94,7 @@ data.forEach(function(d) {
             if($.inArray(res[i], match) > -1){
                score=score*2/(largot);igual.push(i);
             }
-            else if(res[i].length>5&&similar(res[i],match)>=coef){
+            else if(res[i].length>4&&similar(res[i],match)>=coef){
                 score=score*2/(largot);igual.push(i);
             }                  
              else{score=score*1/(largot);}
