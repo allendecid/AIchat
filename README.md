@@ -1,6 +1,6 @@
 # AIchat
 
-Aichat is an open-source chatbot writen in javascript that uses template-based matching with a modified [Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf "Naive Bayes") method for text  classification, allowing to identify the most likely class of a message in a csv document with template questions and returns the associated response. 
+Aichat is an open-source chatbot writen in javascript that uses template-based matching with a modified [Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf "Naive Bayes") method for text  classification, allowing to identify the most likely class of a message in a csv document with template questions and returning the associated response. 
 
 It includes additional parameters such as a coefficient that tolerates typing errors and associates [word stems](https://en.wikipedia.org/wiki/Word_stem "word stems"), and the optional function to add weights to different words on a string (language modeling).  
 
