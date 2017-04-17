@@ -1,3 +1,4 @@
 # AIchat.v1
 
-Javascript, style and response templates for version 1.0.
+Javascript, style and a response template for version 1.0.
+The Spanish version is on folder ES.
