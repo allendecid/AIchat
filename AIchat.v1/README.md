@@ -2,4 +2,4 @@
 
 Javascript, style and a response template for version 1.0.
 
-The Spanish version is on folder ES.
+The Spanish version is in folder ES.
