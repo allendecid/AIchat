@@ -8,6 +8,10 @@ You can see a live version in the following links:
 
 [Spanish Demo](http://www.onl.cl/AIchat/indexes.html "spanish AIchat")
 
+## Screenshot
+
+![alt tag](https://raw.githubusercontent.com/allendecid/AIchat/master/AIchat.v1/AIchat.png)
+
 ## Installation
 
 To install AIchat in your site, you need to download the files on the AIchat.v1 folder and upload them into your server or hosting. Then you need to reference the files in your html or php code before the closing body tag (`</body>`).
