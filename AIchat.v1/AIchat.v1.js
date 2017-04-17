@@ -6,7 +6,7 @@ $(document).ready(function () {$('body').append('<div id="chat_div"></div><div i
      decider = typeof decider !== 'undefined' ? decider : 0.45; // jacobian estimator for sucessful clasification
      lengthmax = typeof lengthmax !== 'undefined' ? lengthmax : 8; // max sentence length before being divided by two sentences
      memory = typeof memory !== 'undefined' ? memory : 0; // 1 takes the last message sent into account for clasification. 0 does not.
-     coef = typeof coef !== 'undefined' ? coef : 0; // coefficient that allows typing errors and associates words with similar stem
+     coef = typeof coef !== 'undefined' ? coef : 0.7; // coefficient that allows typing errors and associates words with similar stem
      weights = typeof weights !== 'undefined' ? weights : 0; // 1 assigns weights to words from the csv field, 0 ignores weights.
      train = typeof train !== 'undefined' ? train : 0; // Allow training 0 disables training
      nameagent = typeof nameagent !== 'undefined' ? nameagent : "AI Agent"; // Name of bot
