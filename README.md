@@ -1,6 +1,6 @@
 # AIchat
 
-Aichat is an open-source chatbot writen in javascript that uses classifiers and a response template to respond to user messages and questions. It is particularly useful for customer support and to assist sales. 
+Aichat is an open-source chatbot writen in javascript that uses classifiers and a response template to respond to user messages and questions. It is particularly useful for situational conversations such as customer support and sales of products. 
 
 You can see a live version in the following links:
 
