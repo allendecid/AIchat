@@ -22,7 +22,7 @@ To install AIchat in your site, you need to download the files on the AIchat.v1 
      <script type="text/javascript" src="AIchat.v1.min.js"></script>
 ```
 
-You will also need to upload a response template file named faqen.csv to the same folder where your site is in order for it to work. You can check the example template in the AIchat.v1 folder to learn the format and to add your own messages and questions.
+You will also need to upload a response template file named faqen.csv to the same folder where your site is in order for it to work. You can check the example template in the AIchat.v1 folder to learn the format and to add your own messages and questions. You can also choose your own response template by setting it's path as the csv variable (see below).
 
 ## Customizations
 
