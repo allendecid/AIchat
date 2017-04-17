@@ -1,0 +1,443 @@
+Pregunta,Respuesta,Weights
+Respuesta Default,No tengo la informacion necesaria para responderle por favor use el formulario de contacto,0.5 0.5
+No entiendo,"Mi informacion es limitada, para preguntas mas especificas por favor use el formulario de contacto.",0.291666666667 0.708333333333
+¿Cual es el precio de los lilium?,Los lilium cuestan 3.500 pesos las 10 unidades.,0.128238971118 0.111669271209 0.090744107323 0.159226461858 0.08867458562 0.108573832764 0.312872770109
+¿Cual es el precio de los productos?,Los lilium cuestan 3.500 pesos las 10 unidades.,0.15676885551 0.131877939319 0.100444268016 0.203318101372 0.0973354433818 0.127227987943 0.183027404458
+¿Cual es el precio de las gerberas?,Las gerberas cuestan 3.500 pesos las 10 unidades.,0.108381594698 0.0976036295776 0.0839925993401 0.128537789208 0.0826464534924 0.113308664467 0.385529269217
+¿Cual es el precio de los gladiolos?,Los gladiolos cuestan 3000 pesos las 10 unidades.,0.109739208824 0.0985652729171 0.0844541881431 0.130635920131 0.0830585863522 0.0964778343411 0.397068989291
+¿Cuanto cuestan los  lilium?,Los lilium cuestan 3.500 pesos las 10 unidades.,0.180084745763 0.33156779661 0.156779661017 0.33156779661
+¿Cuanto cuestan las gerberas?,Las gerberas cuestan 3.500 pesos las 10 unidades.,0.162735849057 0.266509433962 0.162735849057 0.408018867925
+¿Cuanto cuestan los gladiolos?,Los gladiolos cuestan 3000 pesos las 10 unidades.,0.163980509745 0.271176911544 0.147488755622 0.417353823088
+¿Donde puedo encontrar los precios de las flores?,"Toda la informacion sobre el precio de nuestros productos esta en la seccion de Productos. Si desea obtener un presupuesto para compras, escribanos en contacto o llamenos.",0.134978196806 0.0832080562303 0.279934590419 0.0792257377245 0.171217295209 0.0702655210864 0.0914912787225 0.0896793238023
+¿Ofrecen descuentos por pedidos grandes?,"Si es posible, para preguntar por descuentos llama al telefono celular 09-98276460 o escribenos en el formulario de contacto..",0.34 0.16 0.14 0.14 0.22
+¿Hacen precio por cantidades grandes?,"Si es posible, para preguntar por descuentos llama al telefono celular 09-98276460 o escribenos en el formulario de contacto..",0.157894736842 0.136842105263 0.167543859649 0.235087719298 0.302631578947
+¿Hay una cantidad minima?,No hay pedido minimo,0.183823529412 0.213235294118 0.213235294118 0.389705882353
+¿Hay una cantidad maxima?,Para pedidos muy grandes por favor contactate con nosotros,0.183823529412 0.213235294118 0.213235294118 0.389705882353
+¿Cuanto es el pedido maximo?,Para pedidos muy grandes por favor contactate con nosotros,0.128635712825 0.117897320515 0.108590713847 0.115340560442 0.529535692371
+¿Cuanto es el pedido minimo?,No hay pedido minimo,0.128635712825 0.117897320515 0.108590713847 0.115340560442 0.529535692371
+Quiero hacer un pedido,Para comprar por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.269184168013 0.226777059774 0.317245557351 0.186793214863
+Quiero comprar lilium,Para comprar por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.260416666667 0.291666666667 0.447916666667
+Quiero comprar flores,Para comprar por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.328828828829 0.382882882883 0.288288288288
+Muchas Gracias,Muchas Gracias a usted por interesarse en nuestros productos,0.583333333333 0.416666666667
+Buenos dias,Muy buenos dias,0.625 0.375
+Buenas tardes,Muy buenas tardes,0.375 0.625
+Buenas noches,Muy buenas noches,0.375 0.625
+Hasta Luego,Hasta Luego,0.5 0.5
+Adios chao,Hasta Luego,0.7 0.7
+hola buenas,"Hola, ¿como esta hoy?",0.7 0.7
+Muy bien gracias,Me alegro.¿Le puedo ayudar en algo?,0.333333333333 0.333333333333 0.333333333333
+Muy bien y tu,"Bien tambien, muchas gracias. ¿Le puedo ayudar en algo?",0.278846153846 0.278846153846 0.163461538462 0.278846153846
+Hola como estas,Bien gracias. ¿Le puedo ayudar en algo?,0.266666666667 0.366666666667 0.366666666667
+¿Como te llamas?,Me llamo Rosa. Un placer atenderlo.,0.179487179487 0.410256410256 0.410256410256
+¿Como es tu nombre?,Me llamo Rosa. Un placer atenderlo.,0.149048096192 0.144038076152 0.353456913828 0.353456913828
+Yo me llamo,Me llamo Rosa. Un placer atenderlo.,0.416666666667 0.291666666667 0.291666666667
+Mi nombre es,Me llamo Rosa. Un placer atenderlo.,0.215646258503 0.582993197279 0.201360544218
+con quien hablo?,Me llamo Rosa. Un placer atenderlo.,0.393939393939 0.212121212121 0.393939393939
+quien esta hablando?,Me llamo Rosa. Un placer atenderlo.,0.231884057971 0.275362318841 0.492753623188
+¿Hacen entregas a domicilio?,"Si, es posible realizar Envios a a distintas localidades.",0.222785206853 0.353165482658 0.127925198496 0.296124111993
+¿Hacen Envios a domicilio?,"Si, es posible realizar Envios a a distintas localidades.",0.302888366828 0.130485544352 0.130321446871 0.436304641949
+¿Hacen Envios a regiones?,"Si. Cuando realize el pedido, se le enviaran las flores por Tur-Bus.",0.234631054496 0.12838069331 0.128279561459 0.508708690735
+¿Envian a Domicilio?,"Si, es posible realizar Envios a a domicilio tras una previa coordinacion durante el pedido.",0.498111425873 0.169499527856 0.33238904627
+¿Envian a Regiones?,"Si, es posible realizar Envios a a distintas localidades.",0.415602836879 0.168794326241 0.415602836879
+¿Pueden enviar a?,Es posible enviar cualquier cantidad de cualquier variedad listado en el sitio.,0.415602836879 0.415602836879 0.168794326241
+¿Cuanto demora el envio?,Visita Correoschile o Turbus para averiguar el tiempo de envio desde Limache por favor.,0.175651230101 0.50488422576 0.14019536903 0.179269175109
+¿Cuanto toma el envio?,Visita Correoschile o Turbus para averiguar el tiempo de envio desde Limache por favor.,0.153782894737 0.556743421053 0.133634868421 0.155838815789
+¿Quien paga el envio?,El costo del envio corre por parte del comprador.,0.282091561939 0.439183123878 0.131283662478 0.147441651706
+¿Con quien hacen el envio?,CorreosChile o Turbus.,0.168199532346 0.209119251754 0.372798129384 0.110911925175 0.138971161341
+¿Que empresa hace el envio?,CorreosChile o Turbus.,0.110412947757 0.214542425324 0.443627275973 0.106872545519 0.124544805427
+¿Cuanto se demoran en enviar?,"Es posible hacer el envio durante el dia, o para el dia siguiente.",0.119178082192 0.120547945205 0.387671232877 0.128767123288 0.243835616438
+¿Hacen envios internacionales?,No.,0.228926677638 0.168586578899 0.602486743463
+¿Cuanto cuesta el envio?,El costo de envio corre por parte del comprador ve a Turbus para ver los precios.,0.153782894737 0.556743421053 0.133634868421 0.155838815789
+¿Cual es el costo de envio?,El costo de envio corre por parte del comprador ve a Turbus para ver los precios.,0.137487750787 0.121692712363 0.101745835267 0.390208365568 0.0997730672031 0.149092268812
+¿Cuanto es el costo de envio?,El costo de envio corre por parte del comprador ve a Turbus para ver los precios.,0.14383462979 0.121146643619 0.10148372227 0.385839815615 0.0995390377413 0.148156150965
+¿Cual es el precio del envio?,El costo de envio corre por parte del comprador ve a Turbus para ver los precios,0.148766309854 0.129681691702 0.10558054535 0.18445702432 0.268726766808 0.162787661966
+¿Que cargos de envio hay?,El costo de envio corre por parte del comprador ve a Turbus para ver los precios,0.134079844206 0.324926971762 0.120082765336 0.180331061344 0.240579357352
+¿Que metodos de envio tienen?,"En el momento de poner su pedido, podra elegir el metodo de envio. Si usted desea otras opciones distintas a las que ofrecemos durante este proceso, favor de contactarnos directamente antes de finalizar la transaccion.",0.145380875203 0.313938411669 0.126742301459 0.206969205835 0.206969205835
+¿Cuales metodos de envio tienen?,"En el momento de poner su pedido, podra elegir el metodo de envio. Si usted desea otras opciones distintas a las que ofrecemos durante este proceso, favor de contactarnos directamente antes de finalizar la transaccion.",0.361682242991 0.21214953271 0.114018691589 0.156074766355 0.156074766355
+¿Cuales son los metodos de envio?,"En el momento de poner su pedido, podra elegir el metodo de envio. Si usted desea otras opciones distintas a las que ofrecemos durante este proceso, favor de contactarnos directamente antes de finalizar la transaccion.",0.278507596068 0.229714030384 0.105853440572 0.166979445934 0.0937890974084 0.125156389634
+¿Que tan rapido envian mi pedido?,Hacemos el envio de inmediato; tipicamente el mismo dia o al siguiente dia laboral de cuando se puso el pedido.,0.0891056890851 0.273821073141 0.273821073141 0.178577203237 0.0945384944985 0.0901364668979
+¿De donde envian los productos?,Todos los productos son enviados desde la quinta region.,0.336363636364 0.218181818182 0.218181818182 0.109090909091 0.118181818182
+¿Los envios tienen costo extra?,"Los envios al interior del pais tiene costo adicional, ver tabla de costos en tur-bus.",0.307540598198 0.100914275763 0.114824328443 0.169180199399 0.307540598198
+Envios a Arica,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Antofagasta,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Calama,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Tocopilla,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Taltal,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Mejillones,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Maria Elena,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Copiapo,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Caldera,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Tierra Amarilla,"Si, es posible realizar Envios a a distintas localidades.",0.126096563165 0.126063759993 0.373919838421 0.373919838421
+Envios a Chañaral,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Diego de Almagro,"Si, es posible realizar Envios a a distintas localidades.",0.101086900625 0.101054386503 0.346726441777 0.104405829317 0.346726441777
+Envios a El Salvador,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a Vallenar,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Huasco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Gran La Serena (La Serena y Coquimbo),"Si, es posible realizar Envios a a distintas localidades.",0.0561558300767 0.0561378731466 0.123686713706 0.060422066852 0.123686713706 0.191817871857 0.123686713706 0.0725883450932 0.191817871857
+Envios a Andacollo,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Vicuña,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Illapel,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Los Vilos,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a Salamanca,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Ovalle,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Combarbala,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Monte Patria,"Si, es posible realizar Envios a a distintas localidades.",0.126641299011 0.126592200323 0.249191625167 0.4975748755
+Envios a El Palqui,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a Valparaiso,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Concon,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Viña del Mar,"Si, es posible realizar Envios a a distintas localidades.",0.10101254868 0.100982258762 0.329848550411 0.138308091735 0.329848550411
+Envios a Villa Alemana,"Si, es posible realizar Envios a a distintas localidades.",0.126641299011 0.126592200323 0.249191625167 0.4975748755
+Envios a Quilpue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Antonio,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Quillota,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Hijuelas,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a La Calera ,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a La Cruz,"Si, es posible realizar Envios a a distintas localidades.",0.129046052875 0.128925017106 0.157801928668 0.584227001351
+Envios a San Felipe.,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Casablanca.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Las Ventanas.,"Si, es posible realizar Envios a a distintas localidades.",0.127048312156 0.126987037861 0.155997790624 0.58996685936
+Envios a Quintero.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Los Andes.,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a Calle Larga.,"Si, es posible realizar Envios a a distintas localidades.",0.126096563165 0.126063759993 0.373919838421 0.373919838421
+Envios a Rinconada.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Esteban.,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a La Ligua.,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a Cabildo.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Limache.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Nogales.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a El Melon.,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a Olmue.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Algarrobo.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a El Quisco.,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a El Tabo.,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a Catemu.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Llaillay.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Putaendo.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Villa Los Almendros.,"Si, es posible realizar Envios a a distintas localidades.",0.101595570587 0.101547839843 0.220731507746 0.113930558586 0.462194523238
+Envios a Santa Maria.,"Si, es posible realizar Envios a a distintas localidades.",0.127903261827 0.127816412114 0.289760108686 0.454520217372
+Envios a Rancagua,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Machali ,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Gultro,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Codegua,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Doñihue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Lo Miranda,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Graneros,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Las Cabras,"Si, es posible realizar Envios a a distintas localidades.",0.127048312156 0.126987037861 0.155997790624 0.58996685936
+Envios a San Francisco de Mostazal,"Si, es posible realizar Envios a a distintas localidades.",0.084387715949 0.0843561745887 0.0982923866934 0.322678187095 0.0876073485791 0.322678187095
+Envios a Peumo,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Punta Diamante,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Quinta de Tilcoco,"Si, es posible realizar Envios a a distintas localidades.",0.10144290293 0.101399739168 0.263769482603 0.105848910093 0.427538965206
+Envios a Rengo,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Requinoa,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Vicente de Tagua Tagua,"Si, es posible realizar Envios a a distintas localidades.",0.0724829540443 0.072451412684 0.0863876247887 0.31077342519 0.0757025866743 0.191100998309 0.191100998309
+Envios a Pichilemu,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Fernando,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Chimbarongo,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Nancagua,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Palmilla,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Santa Cruz,"Si, es posible realizar Envios a a distintas localidades.",0.127903261827 0.127816412114 0.289760108686 0.454520217372
+Envios a Region del Maule[editar],"Si, es posible realizar Envios a a distintas localidades.",0.101314739693 0.101275409873 0.24922295513 0.149740985043 0.398445910261
+Envios a Talca,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Curico,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Linares,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Constitucion,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Clemente,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Cauquenes,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Hualañe,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Molina,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Teno,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Longavi,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Parral,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Javier,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Villa Alegre,"Si, es posible realizar Envios a a distintas localidades.",0.126641299011 0.126592200323 0.249191625167 0.4975748755
+Envios a Region del Biobio,"Si, es posible realizar Envios a a distintas localidades.",0.101314739693 0.101275409873 0.24922295513 0.149740985043 0.398445910261
+Envios a Gran Concepcion,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Talcahuano,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Chiguayante,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Coronel,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Hualqui,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Lota,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Penco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Tome,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Hualpen,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Chillan ,"Si, es posible realizar Envios a a distintas localidades.",0.170996792499 0.170867258821 0.65813594868
+Envios a Chillan Viejo,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Los angeles,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a Santa Juana,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Lebu,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Arauco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Cañete,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Curanilahue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Los alamos,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a Cabrero,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Monte aguila,"Si, es posible realizar Envios a a distintas localidades.",0.126641299011 0.126592200323 0.249191625167 0.4975748755
+Envios a Mulchen,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Nacimiento,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Santa Barbara,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Huepil,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Yumbel,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Bulnes,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Coelemu,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Coihueco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Quillon,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Quirihue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Carlos,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Temuco ,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Padre Las Casas,"Si, es posible realizar Envios a a distintas localidades.",0.101398196923 0.10135637052 0.258695350816 0.121159380109 0.417390701632
+Envios a Labranza,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Carahue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Cunco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Freire,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Gorbea,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Lautaro,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Loncoche,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Nueva Imperia,"Si, es posible realizar Envios a a distintas localidades.",0.126096563165 0.126063759993 0.373919838421 0.373919838421
+Envios a Pitrufquen,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Pucon,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Villarrica,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Angol,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Collipulli,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Curacautin,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Puren,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Renaico,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Traiguen,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Victoria,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Valdivia,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Futrono,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a La Union,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a Lanco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Los Lagos,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a San Jose de la Mariquina,"Si, es posible realizar Envios a a distintas localidades.",0.0727842525331 0.0727436979702 0.0906622970997 0.225298376798 0.0769239216203 0.0824192718121 0.379168182167
+Envios a Paillaco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Panguipulli,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Rio Bueno,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Puerto Montt ,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Puerto Varas,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Calbuco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Fresia,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Frutillar,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Los Muermos,"Si, es posible realizar Envios a a distintas localidades.",0.127103484233 0.127040559491 0.143365035418 0.602490920859
+Envios a Llanquihue,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Castro,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Ancud,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Quellon,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Osorno,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Purranque,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Rio Negro,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Coyhaique.,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Puerto Aysen,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Punta Arenas,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Puerto Natales,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Santiago,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Cerrillos,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Cerro Navia,"Si, es posible realizar Envios a a distintas localidades.",0.126096563165 0.126063759993 0.373919838421 0.373919838421
+Envios a Conchali,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a El Bosque,"Si, es posible realizar Envios a a distintas localidades.",0.127141235138 0.127077181095 0.134721207525 0.611060376242
+Envios a Estacion Central,"Si, es posible realizar Envios a a distintas localidades.",0.126096563165 0.126063759993 0.373919838421 0.373919838421
+Envios a Huechuraba,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Independencia,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a La Cisterna,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a La Florida,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a La Granja,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a La Pintana,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a La Reina,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a Las Condes,"Si, es posible realizar Envios a a distintas localidades.",0.127048312156 0.126987037861 0.155997790624 0.58996685936
+Envios a Lo Barnechea,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Lo Espejo,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Lo Prado,"Si, es posible realizar Envios a a distintas localidades.",0.126749964477 0.126697615113 0.224310484082 0.522241936328
+Envios a Macul,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Maipu,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Ñuñoa,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Pedro Aguirre Cerda,"Si, es posible realizar Envios a a distintas localidades.",0.100732096487 0.100710196164 0.26618590245 0.26618590245 0.26618590245
+Envios a Peñalolen,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Providencia,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Pudahuel,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Quilicura,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Quinta Normal,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Recoleta,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Renca,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Joaquin,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a San Miguel,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a San Ramon,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Vitacura,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Puente Alto,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.456415807732 0.290707903866
+Envios a San Bernardo,"Si, es posible realizar Envios a a distintas localidades.",0.127056279672 0.126994767032 0.154173467841 0.591775485456
+Envios a Padre Hurtado,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Pirque,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a San Jose de Maipo,"Si, es posible realizar Envios a a distintas localidades.",0.0853558957705 0.085295391766 0.112028437911 0.312894169956 0.0915319346413 0.312894169956
+Envios a Colina,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Lampa,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Batuco,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Tiltil,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Buin,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Alto Jahuel,"Si, es posible realizar Envios a a distintas localidades.",0.126459981532 0.126416306871 0.290707903866 0.456415807732
+Envios a Bajos de San Agustin,"Si, es posible realizar Envios a a distintas localidades.",0.0847194839706 0.0846780179259 0.240661430662 0.0889521939522 0.102999345499 0.39798952799
+Envios a Paine,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Hospital,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Melipilla,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Curacavi,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a Talagante,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+Envios a El Monte,"Si, es posible realizar Envios a a distintas localidades.",0.131084445868 0.13090243253 0.152623384242 0.58538973736
+Envios a Isla de Maipo,"Si, es posible realizar Envios a a distintas localidades.",0.10144290293 0.101399739168 0.427538965206 0.105848910093 0.263769482603
+Envios a La Islita,"Si, es posible realizar Envios a a distintas localidades.",0.127109017401 0.127045927137 0.142098105361 0.603746950101
+Envios a Peñaflor,"Si, es posible realizar Envios a a distintas localidades.",0.168850358038 0.168785033937 0.662364608024
+¿Que formas de pago ofrecen?,"Actualmente aceptamos las principales tarjetas de credito como American Express, Visa, Mastercard, Diners y Discover. ",0.11034355375 0.441337273735 0.10609530846 0.156889545622 0.185334318434
+¿Como puedo pagar mis compras?,"Puedes elegir entre varios metodos de pago: Transferencia bancaria, paypal, y deposito.",0.123917995444 0.121640091116 0.251480637813 0.251480637813 0.251480637813
+¿Que metodos de pago se pueden utilizar?,"Despito Bancario, transferencia o efectivo.",0.0810671256454 0.11686746988 0.0771084337349 0.124440619621 0.094148020654 0.11686746988 0.389500860585
+¿Que metodos de pago tienen?,"Despito Bancario, transferencia o efectivo.",0.135308953342 0.266456494325 0.120807061791 0.29419924338 0.183228247163
+¿Puedo pedir factura boleta?,"Si, es posible pedir factura o boleta.",0.149038461538 0.168269230769 0.341346153846 0.341346153846
+¿Que tarjetas de credito aceptan?,"Se aceptan las siguientes tarjetas de credito: Visa, Master, Amex, Diners, Oca, Cabal, Creditos Directos.",0.108052919183 0.365746333046 0.104745470233 0.232873166523 0.188582111015
+¿Con cuanto tiempo debo hacer el pedido?,A lo menos con 2 dias de anticipacion.,0.13253108673 0.234368612232 0.169192595911 0.193633602031 0.100182696276 0.0812049738768 0.0888864329432
+¿Que moneda se utiliza para facturar mi pedido?,Todos los precios son cotizados en pesos chilenos. ,0.0679744105808 0.152827774583 0.0754039677976 0.243155549166 0.0754039677976 0.243155549166 0.0731267970098 0.0689519838988
+¿Que metodos de pago aceptan?,"Los metodos mas rapidos y eficientes para hacer su pedido es por internet utilizando su tarjeta de credito o llamando al numero gratuito. Aceptamos pagos hechos con Visa, Mastercard, American Express, Discover, PayPal y tambien podemos procesar pedidos manualmente por medio de transferencias monetarias de Western Union.",0.121926389977 0.203367267032 0.112920908379 0.220595144871 0.341190289742
+¿Que son los pagos Paypal?,"Para aquellas personas que no pueden o no desean pagar directamente con una tarjeta de credito, paypal es una alternativa popular de procesamiento seguro de pagos en linea (vea www.paypal.com) la cual permite a los usuarios enviar pagos utilizando diversos metodos, incluyendo cuentas corrientes u otras cuentas bancarias, varias tarjetas de credito y otras opciones. Cuando tiene una cuenta de paypal, usted puede ordenar nuestros productos en linea simplemente eligiendo esta opcion de pago.",0.106534305102 0.15390801709 0.108293541091 0.315632068359 0.315632068359
+¿Como realizo un pedido si no tengo una tarjeta de credito?,"Ademas de tarjetas de credito, aceptamos otros metodos de pago: Paypal (cuenta en linea o cheques electronicos), o transferencias por medio de Western Union. Para solicitar alguno de los ultimos dos servicios, contactenos directamente. Haremos todo lo posible para asegurar lograr una solucion factible para todas las mujeres que tienen necesidad.",0.0519125824256 0.168157247905 0.0590881790602 0.0498367848278 0.0577248156996 0.0566093365864 0.168157247905 0.065904995863 0.168157247905 0.0476456651412 0.10680589668
+¿Es su sitio seguro?,"Si, para su tranquilidad utilizamos los mejores metodos de seguridad disponibles. VeriSign es un lider reconocido en el campo de la seguridad del comercio por internet y brinda el cifrado y seguridad de nuestra entera tienda en linea. Hasta la fecha, despues de muchos años de ofrecer productos en linea para el vaginismo, no hemos tenido ningun incidente o problema de seguridad con alguna transaccion hecha en linea.",0.215909090909 0.170454545455 0.306818181818 0.306818181818
+¿Hay cargos adicionales al completar la orden?,Adicional al costo del arreglo hay un pequeño cargo de envio el cual varia dependiendo de la ciudad destino y podra ver antes de completar su orden.,0.0965903255623 0.116719728869 0.128042518229 0.18465646503 0.297884358632 0.0795162781144 0.0965903255623
+¿Hay cargos adicionales por impuestos?,Las compras que realice son libres de impuestos.,0.145248868778 0.181447963801 0.201809954751 0.167873303167 0.303619909502
+¿Puedo regresar las flores y recibir un reembolso?,"No, no podemos aceptar devoluciones. ",0.0822726149283 0.240453534355 0.074363568957 0.0736220958972 0.0847441917944 0.121817844785 0.0822726149283 0.240453534355
+¿Cual es la politica de devolucion?,No hay devoluciones.,0.0969874295622 0.0930049848288 0.0916233203294 0.315452969224 0.0874783268314 0.315452969224
+¿Ustedes garantizan los precios mas bajos?,"Si, garantizamos que nuestros precios para nuestros productos son los mas bajos que estan disponibles a nivel nacional.",0.243497604381 0.243497604381 0.0894934976044 0.123374401095 0.136721423682 0.163415468857
+¿Hay cargos adicionales?,"El cliente es responsable de los cargos por envio que aplique. Sin embargo, en la mayoria de los casos, estos cargos son minimos.",0.265676567657 0.344884488449 0.389438943894
+¿Hay que pagar impuestos?,"El cliente es responsable de los cargos por envio que aplique. Sin embargo, en la mayoria de los casos, estos cargos son minimos.",0.180865921788 0.150139664804 0.292597765363 0.376396648045
+¿Como cambio o devuelvo las flores?,Tienes hasta 30 dias desde la recepcion de tu pedido para cambiar tu articulo o solicitar su devolucion.,0.0941548681877 0.288942495566 0.134735623892 0.288942495566 0.0970406108155 0.0961839059729
+¿Donde esta mi pedido?,"Si has seleccionado el envio a domicilio, podras consultar en cualquier momento el estado de tu pedido en el sitio de correos.",0.265164899882 0.405329799764 0.174469964664 0.155035335689
+¿Puedo cancelar o modificar mi pedido?,"Actualmente, no es posible cancelar o modificar tu pedido ya que preparamos tu compra en cuanto nos confirmas el pedido en la web.",0.121498824032 0.25507804148 0.169205687406 0.25507804148 0.103538593115 0.0956008124866
+No he recibido todos los articulos de mi compra. ¿Que hago?,"Revisa tu email para comprobar si te hemos enviado un correo electronico informandote de que uno de los articulos incluidos en tu pedido ya no esta disponible. En este caso, te reembolsaremos el importe correspondiente a dicho articulo y los gastos de envio de tu pedido en el mismo metodo de pago utilizado en la compra.",0.0581880251639 0.115488683856 0.115488683856 0.185522822258 0.05084178687 0.115488683856 0.0479557646832 0.0536938558547 0.115488683856 0.049699038691 0.0921439710555
+Los articulos recibidos son incorrectos o tienen un defecto. ¿Que hago?,"Si has recibido un articulo con algun defecto o diferente al comprado, efectuaremos el reembolso de dichos articulos y de los gastos de envio tan pronto como los recibamos en nuestros almacenes y verifiquemos el estado de las prendas.",0.0496491560155 0.0999844827472 0.15451442004 0.0727195141009 0.15451442004 0.0727195141009 0.0532445364964 0.0575723092974 0.15451442004 0.048759390139 0.081807836983
+¿Que opciones ofrecen de flores?,"Puede comprar tres tipos de flores en distintas variedades de colores. Lilium, Gerbera y gladiolos.",0.111135414595 0.467468681646 0.191867170412 0.106561940744 0.122966792603
+¿Donde puedo encontrar informacion sobre sus productos?,"Toda la informacion sobre el precio de nuestros productos esta en la seccion de Productos. Si desea obtener un presupuesto para compras, escribanos en contacto o llamenos.",0.128917989585 0.0878541194733 0.243896825898 0.140415873216 0.186407407742 0.114545635046 0.0979621490393
+¿Quiero tener mas informacion sobre sus productos?,"Toda la informacion sobre el precio de nuestros productos esta en la seccion de Productos. Si desea obtener un presupuesto para compras, escribanos en contacto o llamenos.",0.115508820086 0.291829814718 0.144895652525 0.115508820086 0.144895652525 0.0989787268397 0.08838251322
+¿Quiero saber mas sobre sus productos?,"Toda la informacion sobre el precio de nuestros productos esta en la seccion de Productos. Si desea obtener un presupuesto para compras, escribanos en contacto o llamenos.",0.168100585643 0.130426251283 0.224612087182 0.224612087182 0.136312866027 0.115936122683
+¿Cuanto tiempo duran las flores?,"La flores tienen un tiempo de vida de aproximadamente dos semanas, si las desea mas jovenes por favor indiquelo en el pedido.",0.137209302326 0.211627906977 0.379069767442 0.137209302326 0.13488372093
+¿Cuando marchitan las flores?,"La flores tienen un tiempo de vida de aproximadamente dos semanas, si las desea mas jovenes por favor indiquelo en el pedido.",0.346402214022 0.346402214022 0.154520295203 0.152675276753
+¿Se pueden comprar arreglos florales?,"Arreglos florales pueden ser solicitados, pero tendran un costo adicional.",0.140750323415 0.129107373868 0.122639068564 0.303751617076 0.303751617076
+¿Hay un folleto de sus productos?,"No, solo la informacion contenida en este sitio",0.121860005645 0.121860005645 0.430073384138 0.0895251199548 0.126675839684 0.110005644934
+¿Cuanto se demora en llegar mi pedido?,"Las ordenes se comienzan a trabajar en el dia habil siguiente del que tu haces el pedido. Posterior a eso, contamos con 5 dias habiles para procesar la orden. El despacho puede suceder dentro de estos cinco dias y al momento de hacerlo se te envia un correo con los datos del envio para que puedas hacer el seguimiento.",0.0896173371909 0.0909165347453 0.207844314646 0.0987117200721 0.344260057863 0.0874774823953 0.081172553087
+¿Como se cuando enviaran mi compra?,Al momento de despachar te enviaremos un mail con el numero de orden de transporte para que hagas el seguimiento en la pagina de Chilexpress.,0.0931421035279 0.0966452357402 0.269699967029 0.269699967029 0.0942960764919 0.176516650181
+¿Puedo retirar en tienda?,"No, las ventas por internet son solo con modalidad de despacho a domicilio o a una sucursal de Chilexpress de tu preferencia.",0.157467532468 0.271103896104 0.154220779221 0.417207792208
+¿Puedo comprar en la empresa?,"No, las ventas por internet son solo con modalidad de despacho a domicilio o a una sucursal de Chilexpress de tu preferencia.",0.1803673938 0.1803673938 0.17233065442 0.125832376579 0.341102181401
+¿Puedo comprar desde el extranjero?,Por acuerdo con nuestros proveedores no despachamos fuera de Chile.,0.124777006938 0.124777006938 0.322993062438 0.104459861249 0.322993062438
+¿Que productos puedo comprar?,"Flores Lilium, Gerberas y gladiolos de distintos colores.",0.181969949917 0.269616026711 0.214524207012 0.333889816361
+¿Como puedo comprar?,Para comprar por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.29117259552 0.279314888011 0.429512516469
+¿Como funcionan los pedidos?,"Los pedidos se realizan por telefono, y tras el pago le seran enviados a su domicilio o region.",0.145922746781 0.522532188841 0.140289699571 0.191255364807
+¿Como puedo pagar mi pedido?,"El pago se realiza mediante tarjeta bancaria o PayPal, una vez seleccionado el producto y cumplimentados los datos del cliente y el destinatario",0.149829018075 0.145083397306 0.415583781143 0.155691255496 0.13381254798
+¿Me pueden garantizar la hora de entrega?,Se garantiza la entrega para el mismo dia en territorio nacional siempre que el pedido se realice antes de las 15:00 hora local y el dia de la entrega no sea Domingo ni festivo en la localidad de destino o festividad nacional.,0.2201011378 0.0926675094817 0.2201011378 0.0767383059418 0.2201011378 0.0740834386852 0.0962073324905
+¿Como llegan las flores a su destino?,"Los productos son confeccionados por expertos profesionales floristas, adecuando su estilo y diseño a cada ocasion. Son realizados minutos antes de la entrega por profesionales pertenecientes a la floristeria mas cercana a la direccion de destino, garantizando asi su frescura, cuidado y perfecto estado durante su traslado.",0.0822311224926 0.276677041644 0.0851118027763 0.0842566008171 0.0723057016432 0.122740688982 0.276677041644
+¿Como se si el pedido ha sido cobrado?,Al final del proceso de compra aparecera un mensaje con el numero de pedido que verifica que la transaccion ha sido aceptada.,0.0705236583297 0.0733892505903 0.0777449508264 0.0655489901653 0.0679446252952 0.214949508264 0.214949508264 0.214949508264
+¿Como puedo recibir informacion acerca de ofertas?,"Si te registras como cliente, tienes la opcion de suscribirte a nuestro boletin de informacion y ofertas especiales.",0.0813536606362 0.080408414045 0.134287469744 0.109143910418 0.260005266374 0.0747960124097 0.260005266374
+¿Puedo pedir confirmacion de entrega del pedido?,"Se confirmara la entrega de tu pedido si has proporcionado tu direccion de correo electronico a la hora de realizarlo. En cualquier caso, siempre puedes solicitarlo poniendote en contacto con nuestro departamento de atencion al cliente llamando al telefono indicando en el sitio y especificando el numero de pedido que realizaste y que te fue comunicado. ",0.125295443302 0.168388940801 0.23302918705 0.0800857472654 0.152228879239 0.152228879239 0.0887429231023
+¿Puedo cancelar un pedido una vez realizado el pago?,"Si, siempre y cuando a la hora de realizar la cancelacion el encargo no este ya entregado o en reparto. ",0.0768308579688 0.151294416415 0.0768308579688 0.062394045617 0.0874685091754 0.151294416415 0.247033277275 0.0593851099899 0.0874685091754
+¿Que ocurre si el destinatario no se encuentra en su domicilio?,"La floristeria dejara en su domicilio o en su buzon una tarjeta con los datos del establecimiento, para que el destinatario pueda ponerse en contacto con ellos y recoger su pedido.",0.0517346000013 0.149075445476 0.0661787254589 0.0495993814554 0.149075445476 0.0642947090948 0.0602575311719 0.149075445476 0.0661787254589 0.0972649954653 0.0972649954653
+¿Que dias realizan entregas?,Realizamos entregas todos los dias del año excepto los dias domingos y festivos. ordenes recibidas para los dias domingo o festivos seran entregadas el siguiente dia habil. En temporadas altas como el dia de la Madre o el dia de San Valentin si realizamos entregas los dias domingo.,0.133928571429 0.223214285714 0.419642857143 0.223214285714
+¿Por que les debo confiar mi orden?,Somos una empresa extensa y con trayectoria. Estamos comprometidos con la satisfaccion al cliente y por tanto nos preocupamos porque cada arreglo elaborado en nuestras floristerias sea de la mas alta calidad y frescura. Si por algun motivo no queda satisfecho con su orden favor dejarnoslo y con gusto nos encargaremos de darle una pronta y satisfactoria solucion.,0.155605508048 0.0798462650905 0.239782444668 0.113517039738 0.239782444668 0.0813317404427 0.0901345573441
+¿Con que anterioridad debo colocar mi orden?,"A pesar que recibimos ordenes para entregar el mismo dia si ordena antes de las 12 del dia del hora del Este (UTC/GMT -5), es aconsejable que coloque su orden con minimo dos dias de anticipacion.",0.0955139564799 0.0810627254491 0.264111651839 0.119599341531 0.264111651839 0.0827628702763 0.0928378025853
+¿En que moneda estan expresados sus precios?,Todos nuestros precios estan dados en pesos chilenos. ,0.122579466569 0.0791012056997 0.14815491414 0.224881256851 0.224881256851 0.0906101571063 0.109791742784
+¿Cuales son los pasos para poner una orden?,El proceso de compra en nuestro sitio Web es bien sencillo. Solo debe llamar a nuestro numero o darnos su telefono o correo para que lo contactemos.,0.118597811569 0.104573358677 0.0689728244118 0.230793434707 0.0745209596219 0.230793434707 0.0905489057844 0.081199270523
+¿Tengo problemas completando mi orden y no se que hacer?,Si tiene problema completando su orden favor comunicarse con cualquiera de nuestra oficinas al cliente y uno de de nuestros representantes le tomara su orden telefonicamente.,0.190209355978 0.190209355978 0.190209355978 0.0582476091752 0.0655788173309 0.0675261694973 0.0627463050889 0.0600149539985 0.0570104677989 0.0582476091752
+¿Por que no he recibido la confirmacion de mi orden?,Si han pasado mas de diez minutos desde que completo su orden y no ha recibido nuestro correo electronico con la conformacion puede ser que esta se haya ido a su carpeta de correo no deseado (Junk or Spam folder). ,0.16375277961 0.061375277961 0.0706823235654 0.16375277961 0.16375277961 0.0581251985435 0.125835186406 0.0540625992718 0.0633826799541 0.0752783954688
+¿Una vez colocada mi orden puedo cancelarla?,Con mucho gusto le ayudaremos a cancelar su orden si no lo deja saber con minimo un dia de anticipacion.,0.20592562028 0.138677095854 0.20592562028 0.0793401625374 0.0863726879676 0.0778331928024 0.20592562028
+¿Como puedo modificar una orden?,Con gusto podemos modificar su orden si no le deja saber hasta un dia antes de la fecha de entrega. Para cambios el mismo dia de la entrega favor contactarnos telefonicamente para verificar si aun esta a tiempo de realizar cambios a su orden.,0.129971455756 0.127117031399 0.384728829686 0.194909609895 0.163273073264
+¿Que pasa si no hay nadie en casa al momento de realizar la entrega?,Si no se encuentra nadie en casa al momento de realizar la entrega se llevara el arreglo y regresara de nuevo mas tarde.,0.0389611895595 0.0892881991611 0.0464290684036 0.0454549972501 0.049107764076 0.0892881991611 0.0464290684036 0.142862112608 0.0892881991611 0.142862112608 0.037627639766 0.0892881991611 0.0395409938176 0.0535722568632
+¿A que horas entregaran mis flores?,Por politica no garantizamos una hora especifica de entrega pero su orden sera entregada el dia solicitado lo mas pronto posible. ,0.156459475929 0.0943022547227 0.193022547227 0.302711761121 0.156459475929 0.0970444850701
+¿Como se si mi orden fue entregada?,"Si desea saber quien recibio su orden, favor escribirnos y con gusto le dejaremos saber quien recibio su orden. Favor tener en cuenta que puede tomarnos hasta 24 horas en confirmarle quien recibio las flores.",0.0824209886108 0.0863468518902 0.0923141640748 0.0837142141617 0.09463478548 0.280284497891 0.280284497891
+¿Como hago mi pedido?,Los pedidos podran ser realizados por la telefono o por el formulario de contacto.,0.179767201043 0.47185893994 0.186210401166 0.162163457851
+¿Que sucede si no recibo confirmacion de mi pedido via email?,"Si no recibe una confirmacion de pedido via mail y no aparece informacion de su pedido en su cuenta, le rogamos se ponga en contacto con nuestro servicio al cliente.",0.0487011082585 0.152591117985 0.0561682027075 0.0551942338664 0.152591117985 0.0811667362979 0.0473676985354 0.0517566967798 0.0492808516163 0.152591117985 0.152591117985
+¿Cual es el horario de atencion?,"Flores Lilium permanece abierto Lunes a Viernes de 8:00 a 21:00 hs. y Sabados y Domingos de 8:00 a 20:00 hrs., posteriormente queda un servicio de atencion telefonico para los pedidos nocturnos con servicio las 24 hs.",0.104518064186 0.0983391843542 0.0905361418234 0.173368439459 0.0897644123423 0.443473757835
+¿Cual es el horario de recepcion de pedidos?,"Los pedidos podran ser realizados las 24 hs del dia, seran procesados los dias Lunes a Sabado de las 8:00 a las 16:00 hs., el dia domingo de las 9:00 a las 14:00 hs.",0.0811994114138 0.0757454164181 0.0688577998807 0.141972498508 0.0681766070363 0.380389994034 0.0681766070363 0.115481665672
+¿En que horarios se entregan los pedidos?,Los pedidos son entregados en el correr del dia de 9 a 20 hs.,0.148592991 0.0830032343642 0.302921830141 0.0879638041938 0.187175200785 0.0803321583021 0.110010781214
+¿Que metodos de pago aceptan?,"Puede abonar su pedido por nuestra web mediante las siguientes formas de pagos: Tarjetas de credito, Pay Pal, Wester Union, o transferencias.",0.121926389977 0.203367267032 0.112920908379 0.220595144871 0.341190289742
+¿Que dias no se hacen entregas?,Flores Lilium permanecera cerrada aquellos dias considerados no laborales.,0.0944798301486 0.205944798301 0.116772823779 0.109607218684 0.267250530786 0.205944798301
+¿Donde puedo incluir instrucciones especiales?,"En caso de que quiera indicar algun dato de entrega complementario, como por ejemplo un numero de telefono o una direccion adicional, le rogamos que lo incluya en observaciones de su Envio.",0.125925925926 0.107407407407 0.255555555556 0.255555555556 0.255555555556
+¿Que ocurre si el destinatario no se encuentra en la direccion de entrega?,"Se intentara efectuar la entrega y, en caso de no ser posible, dejara una tarjeta e intentara localizar al destinatario por telefono. Si aun asi no pudiesemos entregar las flores y le resultara asimismo imposible contactar por telefono con el destinatario, le informaremos inmediatamente ya sea por telefono o correo electronico.",0.0442162717297 0.133414637385 0.0574521582463 0.0422596624185 0.133414637385 0.0557257382659 0.0520262668792 0.133414637385 0.0574521582463 0.0452439026704 0.133414637385 0.041852720566 0.0701125714362
+¿Se garantiza el excelente estado final del pedido?,"La plena satisfaccion de nuestros Clientes es para nosotros de maxima prioridad. Por ello, le garantizamos que todos sus pedidos seran ejecutados de forma profesional, dentro de los plazos previstos y con el mas elevado nivel de calidad.",0.085112253688 0.17556126844 0.0647612253688 0.17556126844 0.17556126844 0.17556126844 0.08134354474 0.0665379024443
+¿Cual es el horario de entrega?,Nos comprometemos a entregar las flores en la fecha y horario que elijas de nuestra tabla de posibilidades que te ofrecemos al realizar un pedido.,0.136326166683 0.120869923623 0.101350896672 0.308552875071 0.0994204434575 0.233479694492
+¿Hay servicio de entrega en sabado y domingo?,Por favor contactanos para coordinar si es posible.,0.084540302267 0.260862720403 0.0660421914358 0.0955604534005 0.0823362720403 0.161681360202 0.0872953400504 0.161681360202
+¿Como se entregan mis flores?,La empresa elige para cada pedido el metodo mas adecuado de embalaje y transporte. Los repartidores son muy cuidadosos en su transporte y entrega.,0.125802488097 0.135017662417 0.345123636922 0.263415757948 0.130640454615
+¿Con cuanta antelacion debo hacer el pedido?,"En los servicios normales nuestro sistema de envios le ofrecera posibilidades de entrega hasta con un mes de antelacion, pero puedes realizar el pedido con un minimo de 4 horas de antelacion si el pedido es para Santiago o Valparaiso.",0.113387895566 0.239265867979 0.239265867979 0.155347219704 0.0911741357286 0.0781420632906 0.0834169497536
+¿Que pasa si no hay nadie para recibir las flores?,"Si al hacer la entrega de las flores el destinatario esta ausente nos ponemos en contacto directamente con el destinatario, si el cliente nos ha facilitado su telefono de contacto, de esta manera, acordaremos una segunda entrega en otro horario u otra direccion, sin ningun coste extra para el cliente y le mantendremos informado de la incidencia via e-mail. En el caso de que el cliente no haya facilitado el telefono de contacto del destinatario nos pondremos en contacto con el cliente para acordar una segunda entrega sin ningun coste extra.",0.058058713484 0.182968772485 0.076593754497 0.0741761404519 0.0832421931213 0.182968772485 0.0689955389265 0.138645848323 0.0677291696647 0.0666210965607
+¿Hay Garantia? ,"Se garantiza la frescura y calidad de todos sus productos. Si, a pesar de esto, la satisfaccion obtenida con nuestros servicios no fuera la esperada, nos comprometemos a estudiar cada reclamacion y actuara de forma consensuada con el cliente. Las reclamaciones siempre seran tratadas con generosidad puesto que confiamos en que nuestros clientes actuan de buena fe. ",0.3 0.7
+¿Como los puedo contactar?,Llena el formulario de contacto y te responderemos a la brevedad.,0.148110132904 0.141888174046 0.145909167866 0.564092525184
+¿Cual es su ubicacion y direccion?,"Nos ubicamos en Limache, Region de Valparaiso",0.0982216708023 0.0938792390405 0.146608767577 0.336435070306 0.114971050455 0.20988420182
+¿Quiero saber de sus productos?,"Nuestra empresa vende flores lilium al por mayor y al por menor. Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.288362465501 0.204645814167 0.116818077277 0.217726540938 0.172447102116
+¿Que productos venden?,"Nuestra empresa vende flores lilium al por mayor y al por menor. Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.180350877193 0.201403508772 0.618245614035
+¿Quiero saber de sus productos?,"Nuestra empresa vende flores lilium al por mayor y al por menor. Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.288362465501 0.204645814167 0.116818077277 0.217726540938 0.172447102116
+¿Dan facturas o boletas?,"Si, es posible pedir una factura al hacer el pedido.",0.278846153846 0.278846153846 0.163461538462 0.278846153846
+¿Hacen descuentos y rebajas?,"Si, es posible hacer un descuento dependiendo del tamaño del pedido.",0.172058823529 0.207352941176 0.166176470588 0.454411764706
+¿Hacen precio por pedidos?,"Si, es posible hacer un descuento dependiendo del tamaño del pedido.",0.250954198473 0.205152671756 0.271946564885 0.271946564885
+¿Pueden hacer descuentos?,"Si, es posible hacer un descuento dependiendo del tamaño del pedido.",0.475757575758 0.20303030303 0.321212121212
+¿Que descuentos hay disponibles?,No hay ofertas disponibles actualmente.,0.145512820513 0.294230769231 0.209615384615 0.350641025641
+¿Que colores hay disponibles?,"Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.14700220022 0.270214521452 0.215759075908 0.36702420242
+¿Que colores tienen disponibles?,"Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.148858214042 0.282464212679 0.181237218814 0.387440354465
+¿Cuanto tiempo duran?,Las flores duran aproximadamente dos semanas.,0.210144927536 0.297101449275 0.492753623188
+¿Cuando marchitan mueren?,Las flores duran aproximadamente dos semanas.,0.291666666667 0.291666666667 0.416666666667
+¿Donde se ubican encuentran?,"La ubicacion de nuestra empresa es: Parcela 26, Lliu Liu, Limache, Region de Valparaiso.",0.162234042553 0.140957446809 0.348404255319 0.348404255319
+¿Cual es el precio actual?,"Los precios son variables dependiendo de la temporada, para mas informacion llama al 09-98276460 o usa el formulario de contacto.",0.124279166268 0.117197742773 0.108254916531 0.137522347869 0.512745826558
+¿Quiero saber los precios?,"Los precios son variables dependiendo de la temporada, para mas informacion llama al 09-98276460 o usa el formulario de contacto.",0.291785459729 0.217658588738 0.157074126871 0.333481824661
+¿Cuanto cuestan los paquetes?,Los precios actuales para los paquetes de 10 unidades de lilium es de $3.500 pesos. El precio de gerberas es de $2500 por paquetes de 10.,0.149597918638 0.217242194891 0.139191106906 0.493968779565
+¿Que es el botonaje?,Botonaje se refiere al tamaño de la flor.,0.138875398918 0.144078673512 0.134157763286 0.582888164285
+¿Se pueden hacer pedidos?,Es posible enviar cualquier cantidad de cualquier variedad listado en el sitio.,0.300948743223 0.250677673731 0.17674963036 0.271623952686
+¿Es posible realizar compras?,Es posible enviar cualquier cantidad de cualquier variedad listado en el sitio.,0.232142857143 0.339285714286 0.232142857143 0.196428571429
+¿Se pueden hacer compras?,Es posible enviar cualquier cantidad de cualquier variedad listado en el sitio.,0.261051829268 0.222179878049 0.165015243902 0.35175304878
+¿Como contacto a la empresa?,Por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.128420230763 0.369992192244 0.102307625575 0.119285156589 0.27999479483
+¿Como y donde puedo contactarlos?,Por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.115253313964 0.136226620665 0.244906482658 0.113800617396 0.389812965317
+¿La cantidad maxima para pedir?,Para pedidos muy grandes por favor contactate con nosotros.,0.273841059603 0.157947019868 0.273841059603 0.124834437086 0.169536423841
+¿La cantidad minima para pedir?,No hay pedidos minimos.,0.273841059603 0.157947019868 0.273841059603 0.124834437086 0.169536423841
+¿Donde puedo retirar productos?,En Limache quinta region.,0.230324074074 0.155092592593 0.440972222222 0.173611111111
+¿Cual es la duracion media?,Duran aproximadamente dos semanas.,0.117975604537 0.11273271988 0.110913759897 0.252792638562 0.405585277124
+¿Cuanto es la duracion de las flores?,Duran aproximadamente dos semanas.,0.1135655165 0.0977641620982 0.0940019348597 0.387455659465 0.0827152531441 0.1135655165 0.110931957433
+¿Puedo elegir colores diferentes?,"Si, es posible.",0.167372881356 0.315677966102 0.201271186441 0.315677966102
+¿Se pueden elegir colores diferentes?,"Si, es posible.",0.164814814815 0.146296296296 0.262037037037 0.164814814815 0.262037037037
+¿Que colores pueden ser?,"Blanco, bicolor, rojo, rosado, amarillo, rosa, naranjo etc. Para ver la disponibilidad por favor llamanos al 09-98276460.",0.136034047919 0.197824716267 0.177017654477 0.489123581337
+¿Que tamaños hay?,Para ver la disponibilidad por tamaño por favor llamanos al 09-98276460.,0.179781420765 0.599453551913 0.220765027322
+¿Que porte tienen?,Para ver la disponibilidad por tamaño por favor llamanos al 09-98276460.,0.180419122462 0.620497707924 0.199083169614
+¿Con cuanta antelacion puedo hacer un pedido?,A lo menos dos dias. Mas si es envio a regiones.,0.116775340842 0.252815649081 0.252815649081 0.088703531205 0.092768227623 0.111736810907 0.0843847912609
+¿Con cuanto tiempo puedo hacer un pedido?,A lo menos dos dias. Mas si es envio a regiones.,0.139989245384 0.254257035311 0.181125649758 0.0975469234118 0.103692417996 0.132371392723 0.091017335416
+¿Con cuanto tiempo puedo comprar?,A lo menos dos dias. Mas si es envio a regiones.,0.176493443419 0.303982515784 0.222389509471 0.129140359398 0.167994171928
+¿Que otras flores hay?,Tambien ofrecemos gladiolos y gerberas.,0.137441679627 0.535575427683 0.15066096423 0.17632192846
+¿Con quien puedo hablar para comprar?,Por favor llame a Patricia Cid al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.123522157013 0.147635451221 0.0986433614017 0.404843922769 0.106298375436 0.11905673216
+¿Quien esta a cargo?,Por favor llame a Patricia Cid al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.261046511628 0.215697674419 0.126162790698 0.397093023256
+¿A quien puedo llamar?,Por favor llame a Patricia Cid al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.325573065903 0.245343839542 0.153653295129 0.275429799427
+¿A que horas puedo llamar?,"Flores Lilium permanece abierto Lunes a Viernes de 8:00 a 21:00 hs. y Sabados y Domingos de 8:00 a 20:00 hrs., posteriormente queda un servicio de atencion telefonico para los pedidos nocturnos con servicio las 24 hs.",0.241129032258 0.121169354839 0.311693548387 0.120161290323 0.205846774194
+¿En que horario puedo llamar?,"Flores Lilium permanece abierto Lunes a Viernes de 8:00 a 21:00 hs. y Sabados y Domingos de 8:00 a 20:00 hrs., posteriormente queda un servicio de atencion telefonico para los pedidos nocturnos con servicio las 24 hs.",0.279028132992 0.126854219949 0.234271099744 0.12557544757 0.234271099744
+¿Que cargos adicionales hay?,El costo de envio.,0.150031289111 0.290206508135 0.331508135169 0.228254067584
+¿Cual es el sentido de la vida?,Servir para un bien comun,0.0849570585572 0.0810112498113 0.0760282570523 0.301412852615 0.0755354335926 0.0796422957567 0.301412852615
+¿Cual es el proposito de la muerte?,poder vivir de nuevo.,0.0889976765755 0.083873354241 0.0774020671785 0.220765965177 0.0767620497767 0.0820955281249 0.370103358926
+¿Cual es el proposito de las emociones?,No lo se.,0.0886787316086 0.0836474348894 0.0772936258898 0.218054932959 0.0766652271975 0.090978752966 0.36468129449
+¿Cual es la disponibilidad de?,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.144967880086 0.131852248394 0.127301927195 0.482226980728 0.113650963597
+Estoy interesado en flores,Por favor visite la pagina de productos para ver la variedad y los precios.,0.356213872832 0.356213872832 0.148121387283 0.139450867052
+Que productos  tienen,"Flores Lilium, Gerberas y gladiolos de distintos colores.",0.29270544783 0.360572483841 0.346722068329
+quiero hacer un pedido,Para comprar por favor llamenos al telefono celular 09-98276460 o escribenos en el formulario de contacto.,0.269184168013 0.226777059774 0.317245557351 0.186793214863
+Informacion de sus Productos,"Nuestra empresa vende flores lilium al por mayor y al por menor. Se pueden elegir las flores por los distintos colores (blanco, amarillo, rojo, rosado etc.) y por su botonaje.",0.363219895288 0.146269633508 0.273887434555 0.216623036649
+Quiero saber el precio de los lilium,Los precios actuales para los paquetes de 10 unidades de lilium es de $3.500 pesos. El precio de gerberas es de $2500 por paquetes de 10.,0.139547844351 0.162254268659 0.08777719693 0.145740505526 0.0860255584834 0.102868235854 0.275786390196
+El Telefono de Contacto,Por favor llama al numero celular 09-98276460.,0.136478546051 0.316309100847 0.135248701831 0.411963651271
+A que telefono puedo llamar,Por favor llama al numero celular 09-98276460.,0.10311831789 0.136484319316 0.343228795438 0.134746970777 0.282421596579
+A que numero llamo,Por favor llama al numero celular 09-98276460.,0.126374759417 0.14108468518 0.446693703602 0.285846851801
+Que telefono tienen,Por favor llama al numero celular 09-98276460.,0.221640488656 0.533158813264 0.24520069808
+Quiero saber la disponibilidad de,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.155702917772 0.174270557029 0.123872679045 0.434217506631 0.111936339523
+Necesito la cantidad de,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.472107438017 0.14979338843 0.240702479339 0.137396694215
+Necesito saber el precio,"Los precios son variables dependiendo de la temporada, para mas informacion llama al 09-98276460 o usa el formulario de contacto.",0.471250699496 0.201944599888 0.13885002798 0.187954672636
+Quiero saber el precio,"Los precios son variables dependiendo de la temporada, para mas informacion llama al 09-98276460 o usa el formulario de contacto.",0.261453853788 0.306938471717 0.157748924909 0.273858749587
+Quiero la cantidad de,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.262254901961 0.183823529412 0.399509803922 0.154411764706
+Quiero saber si tienen,"La variedad de flores es dependiente de la temporada, para mas informacion llama al 09-98276460 o usa el formulario de contacto.",0.238882863341 0.276843817787 0.261659436009 0.222613882863
+Costos de envio flores,Para conocer el costo de envio por favor visita Tur-bus o correos de chile para conocer los precios a tu localidad desde Limache.,0.559108527132 0.132751937984 0.156007751938 0.152131782946
+Hacer pedido para el lunes,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.142876393483 0.126032096043 0.152064192086 0.114577973784 0.464449344604
+Hacer pedido para el martes,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.124799829944 0.115057039609 0.130114079218 0.108431942181 0.521597109048
+Hacer pedido para el miercoles,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.124799829944 0.115057039609 0.130114079218 0.108431942181 0.521597109048
+Hacer pedido para el jueves,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.124799829944 0.115057039609 0.130114079218 0.108431942181 0.521597109048
+Hacer pedido para el viernes,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.124799829944 0.115057039609 0.130114079218 0.108431942181 0.521597109048
+Hacer pedido para el sabado,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.142876393483 0.126032096043 0.152064192086 0.114577973784 0.464449344604
+Hacer pedido para el domingo,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.142876393483 0.126032096043 0.152064192086 0.114577973784 0.464449344604
+Ofrecen Venta por mayor,Para pedidos muy grandes por favor contactate con nosotros al numero celular 09-98276460,0.190217391304 0.255434782609 0.16847826087 0.385869565217
+Ofrecen Venta por menor,No hay pedido minimo.,0.190217391304 0.255434782609 0.16847826087 0.385869565217
+Pedir para el dia lunes,Por favor llama al numero celular 09-98276460 o para realizar el pedido.,0.155821371611 0.119936204147 0.105582137161 0.379106858054 0.239553429027
+Si ok,Ok.,0.7 0.7
+Quiero que me cotizen flores,Los precios actuales para los paquetes de 10 unidades de lilium es de $3.500 pesos. El precio de gerberas es de $2500 por paquetes de 10.,0.12457002457 0.114742014742 0.24742014742 0.39484029484 0.118427518428
+Quiero cotizar,Los precios actuales para los paquetes de 10 unidades de lilium es de $3.500 pesos. El precio de gerberas es de $2500 por paquetes de 10.,0.321428571429 0.678571428571
+Que informacion tienen,Los precios actuales y como comprar.,0.244444444444 0.477777777778 0.277777777778
+Quiero cotizar,Los precios actuales para los paquetes de 10 unidades de lilium es de $3.500 pesos. El precio de gerberas es de $2500 por paquetes de 10.,0.321428571429 0.678571428571
+tienen en stock,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.197154471545 0.209349593496 0.593495934959
+Que cantidades manejan,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.194968553459 0.35534591195 0.449685534591
+Que volumenes manejan,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.190476190476 0.404761904762 0.404761904762
+Que cantidades tienen,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.221640488656 0.533158813264 0.24520069808
+Que volumenes tienen,Por favor llama al numero celular 09-98276460 o para saber la disponibilidad actual de nuestros productos.,0.206896551724 0.568965517241 0.224137931034
