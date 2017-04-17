@@ -501,7 +501,9 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     .ui-chatbox-titlebar {
         padding: 10px 7px 7px;
         border-bottom: 2px solid #d2d6de;
-        height: 25px;
+        height: 6%; 
+        min-height: 30px;
+        z-index: 999;
         cursor: pointer;
         background: url(http://www.onl.cl/AIchat/images/vchat40g.png) left center no-repeat #fff;
         text-align: center;
@@ -510,6 +512,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         font-weight: 600
     }
     .ui-chatbox-content {
+        z-index: 999;
         height: 100%;
         margin: 0;
         border: 0;
@@ -517,21 +520,25 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     }
     .ui-chatbox-input,
     .ui-chatbox-log {
+        z-index: 999;
+        font-size: 13px;
         padding: 7px;
         border-bottom: 1px solid #DDD
     }
     .ui-chatbox-log {
-        height: 25%;
+        height: 40%;
         overflow-y: auto;
         overflow-x: hidden;
         background: #FFF;
         line-height: 120%
     }
     .ui-chatbox-input {
+        z-index: 999;
         overflow: hidden;
         background: #fdf5e7
     }
     .ui-chatbox-input-box {
+        z-index: 999;
         margin: 5px;
         border: 2px solid #d2d6de;
         padding: 2px;
@@ -553,6 +560,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         padding: 0
     }
     .ui-chatbox-msg {
+        z-index: 999;
         border-radius: 5px;
         position: relative;
         padding: 5px 10px;
@@ -616,6 +624,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         float: right
     }
     .ui-chatbox-rest {
+        z-index: 999;
         margin-top: 2px;
         margin-bottom: 2px;
         background: #fafafa;
@@ -646,7 +655,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     .ui-chatbox-rest>ul>li>a {
         display: block;
         outline: 0;
-        height: 25px;
+        height: 5%;
+        min-height: 35px;
         padding: 10px 7px 7px;
         border-bottom: 2px solid #d2d6de;
         text-decoration: none;
