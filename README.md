@@ -1,6 +1,64 @@
 # AIchat
 
-Aichat is an open-source chatbot writen in javascript that uses template-based matching with a modified [Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf "Naive Bayes") classifier, allowing to identify the most likely class of a message in a csv document with template questions and returning the associated response. 
+Aichat is an open-source chatbot writen in javascript that uses classifiers and a response template to respond to user messages and questions. It is particularly useful for customer support and to assist sales. 
+
+You can see a live version in the following links:
+
+[English Demo](http://www.onl.cl/AIchat/ "english AIchat")
+
+[Spanish Demo](http://www.onl.cl/AIchat/indexes.html "spanish AIchat")
+
+## Installation
+
+To install AIchat in your site, you need to download the files on the AIchat.v1 folder and upload them into your server or hosting. Then you need to reference the files in your html or php code before the closing body tag (`</body>`).
+
+```
+<link rel="stylesheet" href="AIchat.v1.min.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="dependencies.v1.min.js"></script>
+     <script type="text/javascript" src="AIchat.v1.min.js"></script>
+```
+
+You will also need to upload a response template file named faqen.csv to the same folder where your site is in order for it to work. You can check the example template in the AIchat.v1 folder to learn the format and to add your own messages and questions.
+
+## Customizations
+
+You can customize some of the parameters of AIchat by defining the following variables inside a `<script>` tag in your code (also before the closing body tag).
+
+```
+var reg = /\, |\. | and  /g; // list of words and characters to omit, if you use weights do not set a score for that word
+     var csv = "faqen.csv";   // file with the response template
+     var decider=0.6; //  decides if the classification was successful or not (Jacobian)
+     var lengthmax=12; // max sentence length before being divided
+     var memory=0; // 1 takes the last message sent into account for classification. 0 does not.
+     var coef=0.7; // coefficient that allows typing errors and associates words with similar stems
+     var weights=0; // 1 assigns weights to words from the csv field, 0 ignores weights.
+     var train=0; // 1 enables manual traning on the current bot, 0 disables it.
+     var nameagent="AI Agent"; // Name of the bot.
+```
+(Default values)
+
+An example of custom implemention of AIchat would look something like this:
+
+```
+<link rel="stylesheet" href="AIchat.v1.min.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="dependencies.v1.min.js"></script>
+     <script type="text/javascript" src="AIchat.v1.min.js"></script>
+<script type="text/javascript">
+var reg = /\, |\. | and  /g; // list of words and characters to omit, if you use weights do not set a score for that word
+     var csv = "responsetemplate.csv";   // file with the response template
+     var decider=0.4; //  decides if the classification was successful or not (Jacobian)
+     var lengthmax=8; // max sentence length before being divided
+     var memory=1; // 1 takes the last message sent into account for classification. 0 does not.
+     var coef=0.7; // coefficient that allows typing errors and associates words with similar stems
+     var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
+     var train=1; // 1 enables manual traning on the current bot, 0 disables it.
+     var nameagent="Peter"; // Name of the bot.
+     </script>
+```
+
+## Technical Documentation
+
+Aichat uses template-based matching with a modified [Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf "Naive Bayes") classifier, allowing to identify the most likely class of a message in a csv document with template questions and returning the associated response. 
 
 It includes additional parameters such as a coefficient that tolerates typing errors and associates [word stems](https://en.wikipedia.org/wiki/Word_stem "word stems"), and the optional function to add weights to different words on a string (language modeling).  
 
@@ -14,9 +72,9 @@ A maximum length for the messages can also be set, allowing the bot to divide lo
 
 You can test a running version for english (simple conversation) and spanish (flower shop support). You can also upload your own csv and test the classification of certain sentences.
 
-[English Demo](http://www.onl.cl/AIchat/AIchatEN.html "english AIchat")
+[English Demo](http://www.onl.cl/AIchat/ "english AIchat")
 
-[Spanish Demo](http://www.onl.cl/AIchat/AIchatES.html "spanish AIchat")
+[Spanish Demo](http://www.onl.cl/AIchat/indexes.html "spanish AIchat")
 
 [Upload csv Demo](http://www.onl.cl/AIchat/loadfile.html "upload AIchat")
 
@@ -24,10 +82,7 @@ The success of the chatbot and the classification is highly dependent on the des
 
 AIchat is particularly useful in cases of situational conversations, such as giving information on products and how to buy them and deliver them, but it can also be used as a general purpose chatbot.
 
-You can load the chatbot after referring all the dependencies (check AichatEN.html and AichatES.html), setting the layout and loading the following function:
-```
-init(csv,decider,reg,lengthmax,memory,coef,weights)
-```
+The most important parameters are the following:
 
 ```
 var reg = /\, |\. | and  /g; // list of words to omit, if you use weights do not set a score for that word
