@@ -40,8 +40,8 @@
 
 /* Component containers
 ----------------------------------*/
-.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.8em; }
-.ui-widget .ui-widget { font-size: 0.7em; }
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.9em; }
+.ui-widget .ui-widget { font-size: 0.8em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
 .ui-widget-content {  background: #eeeeee url(http://www.onl.cl/AIchat/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
 .ui-widget-content a { color: #333333; }
@@ -499,11 +499,9 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     border-top: 4px solid #f39c12;}
 
     .ui-chatbox-titlebar {
-        padding: 10px 7px 7px;
+        padding: 10px 7px 7px !important;
         border-bottom: 2px solid #d2d6de;
-        height: 6%; 
-        min-height: 30px;
-        z-index: 999;
+        height: 43px;
         cursor: pointer;
         background: url(http://www.onl.cl/AIchat/images/vchat40g.png) left center no-repeat #fff;
         text-align: center;
@@ -512,7 +510,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         font-weight: 600
     }
     .ui-chatbox-content {
-        z-index: 999;
+    
         height: 100%;
         margin: 0;
         border: 0;
@@ -520,9 +518,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     }
     .ui-chatbox-input,
     .ui-chatbox-log {
-        z-index: 999;
-        font-size: 13px;
         padding: 7px;
+        font-size: 13px;
         border-bottom: 1px solid #DDD
     }
     .ui-chatbox-log {
@@ -533,12 +530,10 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         line-height: 120%
     }
     .ui-chatbox-input {
-        z-index: 999;
         overflow: hidden;
         background: #fdf5e7
     }
     .ui-chatbox-input-box {
-        z-index: 999;
         margin: 5px;
         border: 2px solid #d2d6de;
         padding: 2px;
@@ -560,7 +555,6 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         padding: 0
     }
     .ui-chatbox-msg {
-        z-index: 999;
         border-radius: 5px;
         position: relative;
         padding: 5px 10px;
@@ -624,7 +618,6 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         float: right
     }
     .ui-chatbox-rest {
-        z-index: 999;
         margin-top: 2px;
         margin-bottom: 2px;
         background: #fafafa;
@@ -639,12 +632,14 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         list-style: none;
         margin: 0;
         padding: 0;
+        
         text-align: left;
         font-family: Helvetica
     }
     .ui-chatbox-rest>ul {
-        margin-bottom: 0;
+        margin-bottom: 10px;
         background: #fff;
+        
     }
     .ui-chatbox-rest>ul>li {
         position: relative;
@@ -655,9 +650,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     .ui-chatbox-rest>ul>li>a {
         display: block;
         outline: 0;
-        height: 5%;
-        min-height: 35px;
-        padding: 10px 7px 7px;
+        height: 45px;
+        padding: 15px 7px 7px;
         border-bottom: 2px solid #d2d6de;
         text-decoration: none;
         background: #fff;
