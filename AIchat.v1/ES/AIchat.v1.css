@@ -40,8 +40,8 @@
 
 /* Component containers
 ----------------------------------*/
-.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.8em; }
-.ui-widget .ui-widget { font-size: 0.7em; }
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.9em; }
+.ui-widget .ui-widget { font-size: 0.8em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
 .ui-widget-content {  background: #eeeeee url(http://www.onl.cl/AIchat/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
 .ui-widget-content a { color: #333333; }
@@ -499,9 +499,9 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     border-top: 4px solid #f39c12;}
 
     .ui-chatbox-titlebar {
-        padding: 10px 7px 7px;
+        padding: 10px 7px 7px !important;
         border-bottom: 2px solid #d2d6de;
-        height: 25px;
+        height: 43px;
         cursor: pointer;
         background: url(http://www.onl.cl/AIchat/images/vchat40g.png) left center no-repeat #fff;
         text-align: center;
@@ -510,6 +510,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         font-weight: 600
     }
     .ui-chatbox-content {
+    
         height: 100%;
         margin: 0;
         border: 0;
@@ -518,10 +519,11 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     .ui-chatbox-input,
     .ui-chatbox-log {
         padding: 7px;
+        font-size: 13px;
         border-bottom: 1px solid #DDD
     }
     .ui-chatbox-log {
-        height: 25%;
+        height: 40%;
         overflow-y: auto;
         overflow-x: hidden;
         background: #FFF;
@@ -630,12 +632,14 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         list-style: none;
         margin: 0;
         padding: 0;
+        
         text-align: left;
         font-family: Helvetica
     }
     .ui-chatbox-rest>ul {
-        margin-bottom: 0;
+        margin-bottom: 10px;
         background: #fff;
+        
     }
     .ui-chatbox-rest>ul>li {
         position: relative;
@@ -646,8 +650,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
     .ui-chatbox-rest>ul>li>a {
         display: block;
         outline: 0;
-        height: 25px;
-        padding: 10px 7px 7px;
+        height: 45px;
+        padding: 15px 7px 7px;
         border-bottom: 2px solid #d2d6de;
         text-decoration: none;
         background: #fff;
