@@ -37,7 +37,7 @@ var anterior=0, temp=0, inda=0;
                                                     $("#chat_div").chatbox("option", "boxManager").addMsg(id, msg);
                                                      setTimeout( respuesta, 2500,msg);temp=0;
                                                 }});
-              $("#chat_div").chatbox("option", "boxManager").addMsg("Service Agent", "Good day, how are you?\nCan i help you with something?");
+              $("#chat_div").chatbox("option", "boxManager").addMsg("Service Agent", "Good " + awareSalutation() + ", how are you?\nCan i help you with something?");
 
 }}
           });
@@ -264,6 +264,12 @@ function replaceAll(string, find, replace) {
 
 function escapeRegExp(string) {
     return string.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+}
+    
+function awareSalutation(){
+    var hours = (new Date().getHours()+24)%24;
+    var awareSalutation = (hours > 0 && hours < 12 ? 'day' : (hours > 11 && hours < 7 ? 'afternoon' : 'evening') )
+    return awareSalutation;
 }
    //   });
 });
