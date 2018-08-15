@@ -10,7 +10,7 @@ You can see a live version in the following links:
 
 For a complete Chabot Solution for websites CMSs, and CRMs you can see this other project:
 
-[Chat Compose](https://www.chatcompose.com/ "Smart Chatbot") - Create your own intelligent chatbot.
+[Chat Compose](https://www.chatcompose.com/en.html "Smart Chatbot") - Create your own intelligent chatbot.
 
 ## Screenshot
 
