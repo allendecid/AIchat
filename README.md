@@ -8,6 +8,10 @@ You can see a live version in the following links:
 
 [Spanish Demo](http://www.onl.cl/AIchat/indexes.html "spanish AIchat")
 
+For a complete Chabot Solution for websites CMSs, and CRMs you can see this other project:
+
+[Chat Compose](https://www.chatcompose.com/ "Smart Chatbot") - Create your own intelligent chatbot.
+
 ## Screenshot
 
 ![alt tag](https://raw.githubusercontent.com/allendecid/AIchat/master/AIchat.v1/AIchat.png)
