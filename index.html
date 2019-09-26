@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>National Emergency Management Agency- Bahamas Information to communities</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  
+   <!-- Custom styles for AI Chat -->
+   <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+   <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+   <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+   <link type="text/css" href="EN/jquery.ui.chatboxmod.css" rel="stylesheet" />
+   <link type="text/css" href="head.css" rel="stylesheet" />
+   <script type="text/javascript" src="EN/jquery.ui.chatboxmod.js"></script>
+   <script type="text/javascript" src="EN/AIchatload.js"></script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript" src="sinacento.js"></script>
+   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+   <script type="text/javascript">        
+        
+     var reg = / it | the | a | or |and | and |\, |\. | to /g; // list of words to omit, if you use weights do not set score for that word
+     var csv = "FAQENweighted.csv";   // file with questions and answers
+     var decider=0.45; // jacobian estimator for sucessful clasification
+     var lengthmax=8; // max sentence length before being divided by two sentences
+     var memory=0; // 1 takes the last message sent into account for clasification. 0 does not.
+     var coef=0.7; // coefficient that allows typing errors and associates words with similar stem
+     var weights=1; // 1 assigns weights to words from the csv field, 0 ignores weights.
+     var check = null;   
+     $(document).ready(function () {
+  $('#chat-head').addClass('animate');
+  
+  $("#chat-head").click(function() {
+      
+      if(check) { $("#chat_div").chatbox("option", "hidden", false);
+                  
+              }
+              else { init(csv,decider,reg,lengthmax,memory,coef,weights);check++;}
+   
+  });
+});
+
+    </script>
+
+
+
+</head>
+
+<body id="page-top">
+
+
+        <!-- info assistant --> 
+        <div id="chat_div"></div>
+        <div id="log"> </div>
+        <!-- Chat Head -->
+        <a id="chat-head" href="#">
+          <i>1</i>
+        </a>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Dorian Response <strong>Information One-Stop Shop</strong></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Essential Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Q & A</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Get the information you need: access here <strong>our Answers to your Questions</strong>.</h2>
+        <a  href="#" class="btn btn-primary js-scroll-trigger"> <i class="fas fa-info-circle fa-2x mb-2 text-white"></i> Information Assistant</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">National Emergency Management Agency</h2>
+          <p class="text-white-50">The <a href="www.bahamas.gov.bs/NEMA"  target="_blank" >National Emergency Management Agency (NEMA)</a> is a government agency which operates under the authority of Cabinet Office.</p>
+          <p class="text-white-50">Our mission is to reduce the loss of life and property within the Commonwealth of The Bahamas, by ensuring that adequate preparedness and mitigation measures, and response and recovery mechanisms are established to counteract the impact of natural, man- made and technological hazards.</p>
+        </div>
+      </div>
+      <img src="img/ipad.png" class="img-fluid" alt="">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Report and share information</h4>
+            <p class="text-black-50 mb-0">Below are the links to our <strong>essential forms</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-03.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Referrals</h4>
+                <p class="mb-0 text-white-50"> Please use this form to refer any vulnerable person you have identified!</p>
+                <a  href="https://ee.humanitarianresponse.info/single/::S28fvY0C" target="_blank"  class="btn btn-primary js-scroll-trigger">
+					<i class="fas fa-retweet fa-2x mb-2 text-white"></i> Refer!</a>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Needs Assessment</h4>
+                <p class="mb-0 text-white-50"> Use this form to report on needs at Community Level!</p>
+                <a  href="https://ee.humanitarianresponse.info/x/#Q5dmnipu" target="_blank"  class="btn btn-primary js-scroll-trigger">
+					<i class="far fa-clipboard fa-2x mb-2 text-white"></i> Assess!</a>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Three Row -->
+      
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Activities Tracking</h4>
+                <p class="mb-0 text-white-50"> Use this form to report on support activities!</p>
+                <a  href="http://electricoolpanama.com/es/login" target="_blank"  class="btn btn-primary js-scroll-trigger">
+					<i class="fas fa-flag-checkered fa-2x mb-2 text-white"></i> Track!</a>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+          
+          
+                <a  href="https://docs.google.com/spreadsheets/d/1DLzF_Gkz378KbPLmdSTPBeaRQycDfHiz/edit#gid=296221195" target="_blank"  class="btn btn-primary js-scroll-trigger">Our mailing list is one click-away</a>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+				<p>Ground Floor, Churchill Building Rawson Square</p>
+				<p>Nassau, New Providence , The Bahamas</p>
+				<p>Office Hours: Monday to Friday, 9 a.m. to 5 p.m., Except on Public Holiday</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">nema@bahamas.gov.bs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">(242)-322-6081/5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://twitter.com/nemabahamas" target="_blank" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/NEMA242/" target="_blank" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; NEMA 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
+
+
+
