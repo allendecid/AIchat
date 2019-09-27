@@ -43,7 +43,7 @@
 .ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.9em; }
 .ui-widget .ui-widget { font-size: 0.8em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
-.ui-widget-content {  background: #eeeeee url(http://www.onl.cl/AIchat/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+.ui-widget-content {  background: #eeeeee url(css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
 .ui-widget-content a { color: #333333; }
 .ui-widget-header {  background: #78a100  50% 50% repeat-x; color: #ffffff; font-weight: bold; }
 .ui-widget-header a { color: #ffffff; }
@@ -54,7 +54,7 @@
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1c94c4; text-decoration: none; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {  background: #78a100  50% 50% repeat-x; font-weight: bold; color: #ffffff; }
 .ui-state-hover a, .ui-state-hover a:hover { color: #ffffff; text-decoration: none; }
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  background: #ffffff url(http://www.onl.cl/AIchat/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #66850b; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {  background: #ffffff url(css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #66850b; }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #66850b; text-decoration: none; }
 .ui-widget :active { outline: none; }
 
@@ -62,7 +62,7 @@
 ----------------------------------*/
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  { background: #ffffff 50% top repeat-x; color: #363636; }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
-.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { background: #b81900 url(http://www.onl.cl/AIchat/images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { background: #b81900 url(css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #ffffff; }
 .ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #ffffff; }
 .ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
@@ -73,14 +73,14 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(http://www.onl.cl/AIchat/images/ui-icons_222222_256x240.png); }
-.ui-widget-content .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_222222_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_ffffff_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(http://www.onl.cl/AIchat/images/ui-icons_ffffff_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_ffffff_256x240.png); }
-.ui-state-active .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_ffffff_256x240.png); }
-.ui-state-highlight .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_228ef1_256x240.png); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(http://www.onl.cl/AIchat/images/ui-icons_ffd27a_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url(css/ui-lightness/images/ui-icons_222222_256x240.png); }
+.ui-widget-content .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_222222_256x240.png); }
+.ui-widget-header .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_ffffff_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(css/ui-lightness/images/ui-icons_ffffff_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_ffffff_256x240.png); }
+.ui-state-active .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_ffffff_256x240.png); }
+.ui-state-highlight .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_228ef1_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(css/ui-lightness/images/ui-icons_ffd27a_256x240.png); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
@@ -275,8 +275,8 @@
 .ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }*/
 
 /* Overlays */
-.ui-widget-overlay { background: #666666 url(http://www.onl.cl/AIchat/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
-.ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(http://www.onl.cl/AIchat/images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/* Resizable
+.ui-widget-overlay { background: #666666 url(css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
+.ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/* Resizable
 ----------------------------------*/
 .ui-resizable { position: relative;}
 .ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
@@ -305,7 +305,7 @@
 .ui-accordion .ui-accordion-content-active { display: block; }/* Autocomplete
 ----------------------------------*/
 .ui-autocomplete { position: absolute; cursor: default; }	
-.ui-autocomplete-loading { background: white url('http://www.onl.cl/AIchat/images/ui-anim_basic_16x16.gif') right center no-repeat; }
+.ui-autocomplete-loading { background: white url('css/ui-lightness/images/ui-anim_basic_16x16.gif') right center no-repeat; }
 
 /* workarounds */
 * html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
@@ -503,7 +503,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         border-bottom: 2px solid #d2d6de;
         height: 43px;
         cursor: pointer;
-        background: url(http://www.onl.cl/AIchat/images/vchat40g.png) left center no-repeat #fff;
+        background: url(css/ui-lightness/images/vchat40g.png) left center no-repeat #fff;
         text-align: center;
         color: #444;
         font-family: 'Source Sans Pro', sans-serif;
@@ -572,7 +572,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
         float: left;
         width: 40px;
         height: 40px;
-        background-image: url(http://www.onl.cl/AIchat/images/vchat40.png)
+        background-image: url(css/ui-lightness/images/vchat40.png)
     }
     .ui-chatbox-msg:after,
     .ui-chatbox-msg:before {
@@ -732,7 +732,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 
 #chat-head { 
-background: #fff url('http://www.onl.cl/AIchat/images/servcliente.png') no-repeat -6px -5px;
+background: #fff url('css/ui-lightness/images/servcliente.png') no-repeat -6px -5px;
 background-size: 80px 80px;
 width: 70px;
 height: 70px;
@@ -781,5 +781,5 @@ text-shadow: 0 2px 0 #c51414;
 
 }
 
-#chat-head.animate { right: -10px; }
+#chat-head.animate { right: -200px; top: -200px;}
 
